@@ -1,0 +1,402 @@
+.main {
+    position: relative;
+    width: 1440px;
+    height: 6677px;
+    background: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.start__screen {
+    position: absolute;
+    width: 1440px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(header-bg.jpg);
+}
+
+.menu__item__home {
+    position: absolute;
+    width: 133px;
+    height: 100px;
+    left: 80px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    justify-content: space-around;
+    color: #FFFFFF;
+}
+
+.menu__item__about {
+    position: absolute;
+    width: 133px;
+    height: 100px;
+    left: 213px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    justify-content: space-around;
+    color: #FFFFFF;
+}
+
+.menu__item__team {
+    position: absolute;
+    width: 133px;
+    height: 100px;
+    left: 346px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    justify-content: space-around;
+    color: #FFFFFF;
+}
+
+.menu__item__books {
+    position: absolute;
+    width: 133px;
+    height: 100px;
+    left: 479px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    justify-content: space-around;
+    color: #FFFFFF;
+}
+
+.menu__item__menu {
+    position: absolute;
+    width: 133px;
+    height: 100px;
+    left: 830px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    justify-content: space-around;
+    color: #FFFFFF;
+}
+
+.menu__item__galerie {
+    position: absolute;
+    width: 133px;
+    height: 100px;
+    left: 961px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    justify-content: space-around;
+    color: #FFFFFF;
+}
+
+.menu__item__events {
+    position: absolute;
+    width: 133px;
+    height: 100px;
+    left: 1094px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    justify-content: space-around;
+    color: #FFFFFF;
+}
+
+.menu__item__conakts {
+    position: absolute;
+    width: 133px;
+    height: 100px;
+    left: 1227px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    justify-content: space-around;
+    color: #FFFFFF;
+}
+
+
+.steering__wheel__pic {
+    position: absolute;
+    left: 645px;
+    top: 25px;
+    width: 150px;
+    height: 150px;
+    background-image: url(Vector.png);
+}
+
+.opening__hours {
+    position: absolute;
+    width: 695px;
+    height: 60px;
+    left: -260px;
+    top: 420px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+}
+
+.lettering__restaurant {
+    position: absolute;
+    width: 1440px;
+    height: 19px;
+    top: 326px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    justify-content: space-around;
+}
+
+.lettering__restaurant__name {
+    position: absolute;
+    width: 780px;
+    height: 139px;
+    top: 340px;
+    font-family: Banny;
+    font-size: 96px;
+    line-height: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    transform: translateX(40%);
+    color: #FFFFFF;
+}
+
+.lettering__restaurant__rectangle {
+    position: absolute;
+    width: 60px;
+    height: 5.11px;
+    left: 691px;
+    top: 479.21px;
+    background: #E8C300;
+    border-radius: 50px;
+}
+
+.button__book__table {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 501px;
+    top: 513px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    justify-content: space-around;
+    color: #FFFFFF;
+    background: #E8C300;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.button__explore {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 741px;
+    top: 513px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    justify-content: space-around;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.line__horizont__left {
+    position: absolute;
+    width: 530px;
+    height: 1px;
+    left: 80px;
+    top: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.line__horizont__right {
+    position: absolute;
+    width: 530px;
+    height: 1px;
+    left: 830px;
+    top: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.line__vertical__left {
+    position: absolute;
+    width: 695px;
+    height: 1px;
+    left: -105px;
+    top: 450px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transform: rotate(-90deg);
+}
+
+.line__vertical__right {
+    position: absolute;
+    width: 695px;
+    height: 1px;
+    left: 774px;
+    top: 450px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transform: rotate(-90deg);
+}
+
+.line__vertical__center {
+    position: absolute;
+    width: 1px;
+    height: 454px;
+    left: 719px;
+    top: 203px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.line__vertical__center__small {
+    position: absolute;
+    width: 1px;
+    height: 82px;
+    left: 719px;
+    top: 717px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.circle__arrow__down {
+    position: absolute;
+    height: 62px;
+    width: 62px;
+    left: 688px;
+    top: 655px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: url(down-btn.png);
+}
+
+
+.circle__facebook {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 1301px;
+    top: 340px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background:  url(facebook.png);
+}
+
+.circle__twiteer {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 1301px;
+    top: 420px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: url(twitter.png);
+}
+
+.circle__instagramm {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 1301px;
+    top: 500px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: url(facebook.png);
+}
