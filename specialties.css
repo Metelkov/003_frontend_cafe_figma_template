@@ -1,13 +1,14 @@
-.our__team__container__block {
+.specialties__block {
     position: absolute;
     width: 1440px;
     height: 800px;
     left: 0px;
-    top: 1602px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(specialtys-bg.jpg);
+    top: 3203px;
+    border: 1px solid rgba(233, 10, 10, 0.918);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(specialties.jpg);
 }
 
-.our__team__lettering {
+.specialties__lettering {
     position: absolute;
     width: 1440px;
     height: 100px;
@@ -24,38 +25,52 @@
     text-transform: uppercase;
     color: #FFFFFF;
     justify-content: space-around;
+    
 }
 
-.our__team__master__chef {
+.specialties__slider {
     position: absolute;
-    width: 600px;
-    height: 56px;
-    left: 740px;
-    top: 217px;
-    font-family: Banny;
-    font-size: 36px;
-    line-height: 48px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 103px;
+    border: 1px solid rgba(27, 109, 202, 0.918);
+
 }
 
-.our__team__rectangle {
+.specialties__rectangle {
     position: absolute;
     width: 60px;
     height: 5.11px;
     left: 1007.14px;
-    top: 273px;
+    top: 70px;
     background: #E8C300;
     border-radius: 50px;
 }
 
-.our__team__content__lettering {
+.specialties__lettering__container {
+    position: absolute;
+    width: 600px;
+    height: 56px;
+    left: 761px;
+    //top: 342px;
+    
+    font-family: Banny;
+    font-size: 36px;
+    line-height: 48px;
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.specialties__content__lettering {
     position: absolute;
     width: 600px;
     height: 50px;
     left: 740px;
-    top: 290px;
+    top: 90px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -64,16 +79,16 @@
     display: flex;
     align-items: flex-end;
     text-align: center;
-    ///////////////////////////////////////////////////////////color: #000000;
+    //color: #000000;
     color: rgba(255, 255, 255, 0.9);
 }
 
-.our__team__content__lettering__second {
+.specialties__content__lettering__second {
     position: absolute;
     width: 600px;
     height: 180px;
     left: 740px;
-    top: 305px;
+    top: 105px;
     font-family: Open Sans;
     font-style: normal;
     font-size: 18px;
@@ -85,18 +100,18 @@
     color: rgba(255, 255, 255, 0.9);
 }
 
-.our__team__photo {
+.specialties__photo {
     position: absolute;
     width: 475px;
     height: 475px;
     left: 193px;
     top: 100px;
-    background: no-repeat center/122% url(chef.jpg);
+    background: no-repeat center/112% url(specialties-rectangle.jpg);
     border-radius: 5px;
     z-index: 10;
 }
 
-.our__team__square {
+.specialties__square {
     position: absolute;
     width: 250px;
     height: 250px;
@@ -110,8 +125,7 @@
 }
 
 
-
-.our__team__line__vertical__left {
+.specialties__line__vertical__left {
     position: absolute;
     width: 800px;
     height: 1px;
@@ -123,7 +137,7 @@ border: 1px solid rgba(255, 255, 255, 0.2);
 
 }
 
-.our__team__line__vertical__center {
+.specialties__line__vertical__center {
     position: absolute;
 width: 800px;
 height: 1px;
@@ -135,7 +149,7 @@ transform: rotate(-90deg);
 
 }
 
-.our__team__line__vertical__right {
+.specialties__line__vertical__right {
     position: absolute;
 width: 800px;
 height: 1px;

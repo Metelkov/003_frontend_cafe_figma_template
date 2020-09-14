@@ -1,0 +1,49 @@
+.delicious__menu__block {
+    position: absolute;
+    width: 1440px;
+    height: 800px;
+    left: 0px;
+    top: 4004px;
+    border: 1px solid rgba(233, 10, 10, 0.918);
+}
+
+.delicious__menu__lettering {
+    position: absolute;
+    width: 1280px;
+    height: 56px;
+    left: 80px;
+    top: 100px;
+    font-family: Banny;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.delicious__menu__rectangle {
+    position: absolute;
+    width: 60px;
+    height: 5.11px;
+    left: 691px;
+    top: 156px;
+    background: #E8C300;
+    border-radius: 50px;
+}
+
+.delicious__menu__lettering__container {
+    position: absolute;
+    width: 565px;
+    height: 76px;
+    left: 438px;
+    top: 171px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #000000;
+}

@@ -4,28 +4,106 @@
     height: 800px;
     left: 0px;
     top: 2402px;
-    border: 1px solid rgba(233, 10, 10, 0.918);
-
 }
 .book__a__table {
-    
+
 }
+
 .book__a__table__lettering {
+    position: absolute;
+    width: 565px;
+    height: 56px;
+    left: 135px;
+    top: 2550px;
+    font-family: Banny;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    border-radius: 5px;
 }
+
+.book__a__table__content__lettering {
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 3100px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.5);
+    border-radius: 5px;
+    text-transform: uppercase;
+    justify-content: space-around;
+}
+
 
 .book__a__table__rectangle {
-
+    position: absolute;
+    width: 60px;
+    height: 5.11px;
+    left: 387px;
+    top: 2602px;
+    background: #E8C300;
+    border-radius: 5px;
 }
 
-.book__a__tablecontent__lettering {
+.book__a__table__planing {
+    position: absolute;
+    width: 580px;
+    height: 400px;
+    left: 150px;
+    top: 2650px;
+    border-radius: 5px;
+    //border: 1px solid rgba(184, 13, 13, 0.2);
+}
 
+.book__a__table__planing__gray {
+    height: 60px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.book__a__table__planing__yelow {
+    height: 60px;
+    width: 540px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #E8C300;
+    color: #FFFFFF;
+    
 }
 
 .book__a__table__photo {
-
+    position: absolute;
+    width: 475px;
+    height: 475px;
+    left: 761px;
+    top: 2500px;
+    background: no-repeat center/110% url(about-bookatable-img.jpg);
+    border-radius: 5px;
 }
     
 .book__a__table__square {
-
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1111px;
+    top: 2610px;
+    border: 20px solid #E8C300;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
+    border-radius: 5px;
 }
   

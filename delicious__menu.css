@@ -1,0 +1,216 @@
+.delicious__menu__selector__block {
+    position: absolute;
+width: 840px;
+height: 50px;
+left: 300px;
+top: 247px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #333333;
+
+}
+
+
+.delicious__menu__selector__soupe {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    border: 1px solid rgba(233, 10, 10, 0.918);
+}
+
+.delicious__menu__selector__pizza {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 120px;
+    top: 0px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    border: 1px solid rgba(233, 10, 10, 0.918);
+
+}
+
+.delicious__menu__selector__pasta {
+    position: absolute;
+width: 120px;
+height: 50px;
+left: 240px;
+top: 0px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+/* or 150% */
+text-transform: uppercase;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #333333;
+border: 1px solid rgba(233, 10, 10, 0.918);
+}
+
+.delicious__menu__selector__desert {
+    position: absolute;
+width: 120px;
+height: 50px;
+left: 360px;
+top: 0px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+/* or 150% */
+text-transform: uppercase;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #333333;
+border: 1px solid rgba(233, 10, 10, 0.918);
+}
+
+.delicious__menu__selector__wine {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 480px;
+    top: 0px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #333333;
+    border: 1px solid rgba(233, 10, 10, 0.918);
+}
+
+.delicious__menu__selector__beer {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 600px;
+    top: 0px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #333333;
+    border: 1px solid rgba(233, 10, 10, 0.918);
+}
+
+.delicious__menu__selector__drinks {
+
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 720px;
+    top: 0px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    text-transform: uppercase;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #333333;
+    border: 1px solid rgba(233, 10, 10, 0.918);
+}
+
+.delicious__menu__content__block{
+    position: absolute;
+    width: 1200px;
+    height: 50px;
+    left: 20px;
+    top: 400px;
+    border: 1px solid rgba(233, 10, 10, 0.918);
+}
+
+.delicious__menu__soupe__table {
+
+}
+
+
+.delicious__menu__pizza__table {
+    visibility: hidden;
+}
+
+.delicious__menu__pasta__table {
+    visibility: hidden;
+}
+
+.delicious__menu__desert__table {
+    visibility: hidden;
+}
+
+.delicious__menu__wine__table {
+
+}
+
+.delicious__menu__beer__table {
+    visibility: hidden;
+}
+
+.delicious__menu__drinks__table {
+    visibility: hidden;
+}
