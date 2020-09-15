@@ -1,4 +1,4 @@
-.our__team__container__block {
+.our__team-container-block {
     position: absolute;
     width: 1440px;
     height: 800px;
@@ -7,7 +7,7 @@
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(specialtys-bg.jpg);
 }
 
-.our__team__lettering {
+.our__team-lettering {
     position: absolute;
     width: 1440px;
     height: 100px;
@@ -26,7 +26,7 @@
     justify-content: space-around;
 }
 
-.our__team__master__chef {
+.our__team-master-chef {
     position: absolute;
     width: 600px;
     height: 56px;
@@ -40,7 +40,7 @@
     color: #FFFFFF;
 }
 
-.our__team__rectangle {
+.our__team-rectangle {
     position: absolute;
     width: 60px;
     height: 5.11px;
@@ -50,7 +50,7 @@
     border-radius: 50px;
 }
 
-.our__team__content__lettering {
+.our__team-content-lettering {
     position: absolute;
     width: 600px;
     height: 50px;
@@ -68,7 +68,7 @@
     color: rgba(255, 255, 255, 0.9);
 }
 
-.our__team__content__lettering__second {
+.our__team-content-lettering-second {
     position: absolute;
     width: 600px;
     height: 180px;
@@ -85,7 +85,7 @@
     color: rgba(255, 255, 255, 0.9);
 }
 
-.our__team__photo {
+.our__team-photo {
     position: absolute;
     width: 475px;
     height: 475px;
@@ -96,7 +96,7 @@
     z-index: 10;
 }
 
-.our__team__square {
+.our__team-square {
     position: absolute;
     width: 250px;
     height: 250px;
@@ -111,7 +111,7 @@
 
 
 
-.our__team__line__vertical__left {
+.our__team-line-vertical-left {
     position: absolute;
     width: 800px;
     height: 1px;
@@ -123,7 +123,7 @@ border: 1px solid rgba(255, 255, 255, 0.2);
 
 }
 
-.our__team__line__vertical__center {
+.our__team-line-vertical-center {
     position: absolute;
 width: 800px;
 height: 1px;
@@ -135,7 +135,7 @@ transform: rotate(-90deg);
 
 }
 
-.our__team__line__vertical__right {
+.our__team-line-vertical-right {
     position: absolute;
 width: 800px;
 height: 1px;

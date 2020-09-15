@@ -1,4 +1,4 @@
-.specialties__block {
+.specialties-block {
     position: absolute;
     width: 1440px;
     height: 800px;
@@ -8,7 +8,7 @@
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(specialties.jpg);
 }
 
-.specialties__lettering {
+.specialties-lettering {
     position: absolute;
     width: 1440px;
     height: 100px;
@@ -28,7 +28,7 @@
     
 }
 
-.specialties__slider {
+.specialties-slider {
     position: absolute;
     width: 1440px;
     height: 600px;
@@ -38,17 +38,7 @@
 
 }
 
-.specialties__rectangle {
-    position: absolute;
-    width: 60px;
-    height: 5.11px;
-    left: 1007.14px;
-    top: 70px;
-    background: #E8C300;
-    border-radius: 50px;
-}
-
-.specialties__lettering__container {
+.specialties-lettering-container {
     position: absolute;
     width: 600px;
     height: 56px;
@@ -65,7 +55,16 @@
     color: #FFFFFF;
 }
 
-.specialties__content__lettering {
+.specialties-rectangle {
+    position: absolute;
+    width: 60px;
+    height: 5.11px;
+    left: 1007.14px;
+    top: 70px;
+    background: #E8C300;
+    border-radius: 50px;
+}
+.specialties-content-lettering {
     position: absolute;
     width: 600px;
     height: 50px;
@@ -83,7 +82,7 @@
     color: rgba(255, 255, 255, 0.9);
 }
 
-.specialties__content__lettering__second {
+.specialties-content-lettering-second {
     position: absolute;
     width: 600px;
     height: 180px;
@@ -100,7 +99,7 @@
     color: rgba(255, 255, 255, 0.9);
 }
 
-.specialties__photo {
+.specialties-photo {
     position: absolute;
     width: 475px;
     height: 475px;
@@ -111,7 +110,7 @@
     z-index: 10;
 }
 
-.specialties__square {
+.specialties-square {
     position: absolute;
     width: 250px;
     height: 250px;
@@ -125,7 +124,7 @@
 }
 
 
-.specialties__line__vertical__left {
+.specialties-line-vertical-left {
     position: absolute;
     width: 800px;
     height: 1px;
@@ -137,7 +136,7 @@ border: 1px solid rgba(255, 255, 255, 0.2);
 
 }
 
-.specialties__line__vertical__center {
+.specialties-line-vertical-center {
     position: absolute;
 width: 800px;
 height: 1px;
@@ -149,7 +148,7 @@ transform: rotate(-90deg);
 
 }
 
-.specialties__line__vertical__right {
+.specialties-line-vertical-right {
     position: absolute;
 width: 800px;
 height: 1px;

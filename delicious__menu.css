@@ -1,4 +1,4 @@
-.delicious__menu__selector__block {
+.delicious-menu-selector {
     position: absolute;
 width: 840px;
 height: 50px;
@@ -21,7 +21,7 @@ color: #333333;
 }
 
 
-.delicious__menu__selector__soupe {
+.delicious-menu-selector-soupe {
     position: absolute;
     width: 120px;
     height: 50px;
@@ -42,7 +42,7 @@ color: #333333;
     border: 1px solid rgba(233, 10, 10, 0.918);
 }
 
-.delicious__menu__selector__pizza {
+.delicious-menu-selector-pizza {
     position: absolute;
     width: 120px;
     height: 50px;
@@ -65,7 +65,7 @@ color: #333333;
 
 }
 
-.delicious__menu__selector__pasta {
+.delicious-menu-selector-pasta {
     position: absolute;
 width: 120px;
 height: 50px;
@@ -87,7 +87,7 @@ color: #333333;
 border: 1px solid rgba(233, 10, 10, 0.918);
 }
 
-.delicious__menu__selector__desert {
+.delicious-menu-selector-desert {
     position: absolute;
 width: 120px;
 height: 50px;
@@ -109,7 +109,7 @@ color: #333333;
 border: 1px solid rgba(233, 10, 10, 0.918);
 }
 
-.delicious__menu__selector__wine {
+.delicious-menu-selector-wine {
     position: absolute;
     width: 120px;
     height: 50px;
@@ -131,7 +131,7 @@ border: 1px solid rgba(233, 10, 10, 0.918);
     border: 1px solid rgba(233, 10, 10, 0.918);
 }
 
-.delicious__menu__selector__beer {
+.delicious-menu-selector-beer {
     position: absolute;
     width: 120px;
     height: 50px;
@@ -153,7 +153,7 @@ border: 1px solid rgba(233, 10, 10, 0.918);
     border: 1px solid rgba(233, 10, 10, 0.918);
 }
 
-.delicious__menu__selector__drinks {
+.delicious-menu-selector-drinks {
 
     position: absolute;
     width: 120px;
@@ -177,7 +177,7 @@ border: 1px solid rgba(233, 10, 10, 0.918);
     border: 1px solid rgba(233, 10, 10, 0.918);
 }
 
-.delicious__menu__content__block{
+.delicious-menu-content-block{
     position: absolute;
     width: 1200px;
     height: 50px;
@@ -186,31 +186,31 @@ border: 1px solid rgba(233, 10, 10, 0.918);
     border: 1px solid rgba(233, 10, 10, 0.918);
 }
 
-.delicious__menu__soupe__table {
+.delicious-menu-soupe-table {
 
 }
 
 
-.delicious__menu__pizza__table {
+.delicious-menu-pizza-table {
     visibility: hidden;
 }
 
-.delicious__menu__pasta__table {
+.delicious-menu-pasta-table {
     visibility: hidden;
 }
 
-.delicious__menu__desert__table {
+.delicious-menu-desert-table {
     visibility: hidden;
 }
 
-.delicious__menu__wine__table {
-
-}
-
-.delicious__menu__beer__table {
+.delicious-menu-wine-table {
     visibility: hidden;
 }
 
-.delicious__menu__drinks__table {
+.delicious-menu-beer-table {
+    visibility: hidden;
+}
+
+.delicious-menu-drinks-table {
     visibility: hidden;
 }
