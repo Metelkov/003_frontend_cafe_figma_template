@@ -37,9 +37,10 @@ color: #333333;
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
     text-transform: uppercase;
     color: #333333;
-    border: 1px solid rgba(233, 10, 10, 0.918);
+    border-right: 1px solid rgba(51, 51, 51, 0.2);
 }
 
 .delicious-menu-selector-pizza {
@@ -54,14 +55,14 @@ color: #333333;
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-    /* or 150% */
     
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
     text-transform: uppercase;
     color: #333333;
-    border: 1px solid rgba(233, 10, 10, 0.918);
+    border-right: 1px solid rgba(51, 51, 51, 0.2);
 
 }
 
@@ -77,14 +78,14 @@ font-style: normal;
 font-weight: bold;
 font-size: 12px;
 line-height: 18px;
-/* or 150% */
+
 text-transform: uppercase;
 display: flex;
 align-items: center;
 text-align: center;
-
+justify-content: center;
 color: #333333;
-border: 1px solid rgba(233, 10, 10, 0.918);
+border-right: 1px solid  rgba(51, 51, 51, 0.2);
 }
 
 .delicious-menu-selector-desert {
@@ -99,14 +100,14 @@ font-style: normal;
 font-weight: bold;
 font-size: 12px;
 line-height: 18px;
-/* or 150% */
+
 text-transform: uppercase;
 display: flex;
 align-items: center;
 text-align: center;
-
+justify-content: center;
 color: #333333;
-border: 1px solid rgba(233, 10, 10, 0.918);
+border-right: 1px solid  rgba(51, 51, 51, 0.2);
 }
 
 .delicious-menu-selector-wine {
@@ -121,14 +122,13 @@ border: 1px solid rgba(233, 10, 10, 0.918);
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-    /* or 150% */
     text-transform: uppercase;
     display: flex;
     align-items: center;
     text-align: center;
-    
+    justify-content: center;
     color: #333333;
-    border: 1px solid rgba(233, 10, 10, 0.918);
+    border-right: 1px solid  rgba(51, 51, 51, 0.2);
 }
 
 .delicious-menu-selector-beer {
@@ -143,14 +143,13 @@ border: 1px solid rgba(233, 10, 10, 0.918);
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-    /* or 150% */
     text-transform: uppercase;
     display: flex;
     align-items: center;
     text-align: center;
-    
+    justify-content: center;
     color: #333333;
-    border: 1px solid rgba(233, 10, 10, 0.918);
+    border-right: 1px solid  rgba(51, 51, 51, 0.2);
 }
 
 .delicious-menu-selector-drinks {
@@ -166,51 +165,127 @@ border: 1px solid rgba(233, 10, 10, 0.918);
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-    /* or 150% */
     text-transform: uppercase;
-    
+        
     display: flex;
     align-items: center;
     text-align: center;
-    
+    justify-content: center;
     color: #333333;
-    border: 1px solid rgba(233, 10, 10, 0.918);
+    border-right: 1px solid  rgba(51, 51, 51, 0.2);
 }
 
 .delicious-menu-content-block{
     position: absolute;
-    width: 1200px;
-    height: 50px;
-    left: 20px;
-    top: 400px;
-    border: 1px solid rgba(233, 10, 10, 0.918);
+    width: 1240px;
+    height: 450px;
+    left: 100px;
+    top: 300px;
+    border: 1px solid rgba(38, 34, 226, 0.918);
 }
 
 .delicious-menu-soupe-table {
+    display: flex;
+    
+}
+
+.delicious-menu-soupe-content-col-left {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #1ebe46;
+    width: 402px;
+    height: 450px;
+    border: 1px solid rgba(13, 13, 17, 0.918);
 
 }
 
+.delicious-menu-soupe-content-col-left-string01 {
+    align-items: left;
+    text-align: left;
+    width: 400px;
+    height: 60px;
+    text-transform: uppercase;
+    color: #098127;
+    border: 1px solid rgba(179, 226, 9, 0.918);
+    
+}
+
+.delicious-menu-soupe-content-col-left-string01-items {
+    
+    align-items: left;
+    text-align: left;
+    width: 230px;
+    height: 50px;
+    text-transform: uppercase;
+    color: #098127;
+    border: 1px solid rgba(114, 208, 224, 0.918);
+    
+}
+
+.delicious-menu-soupe-content-col-left-string01-price {
+
+    align-items: left;
+    text-align: left;
+    width: 85px;
+    height: 50px;
+    
+    text-transform: uppercase;
+    color: #098127;
+    border: 1px solid rgba(162, 221, 165, 0.918);
+    
+}
+
+.delicious-menu-soupe-content-col-center {
+ 
+    color: #235edd;
+ 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+ 
+    width: 402px;
+    height: 450px;
+    border: 1px solid rgba(13, 13, 17, 0.918);
+}
+
+.delicious-menu-soupe-content-col-right {
+    color: #ca32e9;
+    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+ 
+    width: 402px;
+    height: 450px;
+    border: 1px solid rgba(13, 13, 17, 0.918);
+
+
+}
 
 .delicious-menu-pizza-table {
-    visibility: hidden;
+    display: none;
 }
 
 .delicious-menu-pasta-table {
-    visibility: hidden;
+    display: none;
 }
 
 .delicious-menu-desert-table {
-    visibility: hidden;
+    display: none;
 }
 
 .delicious-menu-wine-table {
-    visibility: hidden;
+    display: none;
 }
 
 .delicious-menu-beer-table {
-    visibility: hidden;
+    display: none;
 }
 
 .delicious-menu-drinks-table {
-    visibility: hidden;
+    display: none;
 }
