@@ -1,24 +1,24 @@
 .contact-block {
     position: absolute;
     width: 1440px;
-    height: 800px;
+    height: 971px;
     left: 0px;
     top: 5606px;
     border: 1px solid rgba(112, 112, 226, 0.918);
 }
 
 .contact-lettering {
-        position: absolute;
-        width: 1280px;
-        height: 56px;
-        left: 80px;
-        top: 100px;
-        font-family: Banny;
-        font-size: 36px;
-        line-height: 48px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #000000;
+    position: absolute;
+    width: 1280px;
+    height: 56px;
+    left: 80px;
+    top: 100px;
+    font-family: Banny;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
 }
 
 .contact-rectangle {
@@ -32,7 +32,6 @@
 }
 
 .contact-content-lettering {
-    
     position: absolute;
     width: 565px;
     height: 76px;
@@ -50,17 +49,15 @@
 }
 
 .contact-planing {
-    
     position: absolute;
     width: 1240px;
-    height: 450px;
+    height: 280px;
     left: 100px;
     top: 270px;
     border: 1px solid rgba(38, 34, 226, 0.918);
 }
 
 .contact-planing-name {
-    
     height: 60px;
     width: 380px;
     margin-left: 10px;
@@ -70,7 +67,6 @@
 }
 
 .contact-planing-email {
-    
     height: 60px;
     width: 380px;
     margin-left: 10px;
@@ -80,7 +76,6 @@
 }
 
 .contact-planing-phone {
-    
     height: 60px;
     width: 380px;
     margin-left: 10px;
@@ -106,19 +101,19 @@
     margin-top: 10px;
 }
 
-.contact-requisites-string_location_pic {
+.contact-requisites-string__location-pic {
     position: absolute;
     width: 14px;
     height: 14px;
     background: #E8C300;
 }
 
-.contact-requisites-string_location_text {
+.contact-requisites-string__location-text {
     position: absolute;
     left: 30px;
 }
 
-.contact-requisites-string_phone_pic {
+.contact-requisites-string__phone-pic {
     position: absolute;
     width: 14px;
     height: 14px;
@@ -126,12 +121,12 @@
     left: 230px;
 }
 
-.contact-requisites-string_phone_text {
+.contact-requisites-string__phone-text {
     position: absolute;
     left: 250px;
 }
 
-.contact-requisites-string_email_pic {
+.contact-requisites-string__email-pic {
     position: absolute;
     width: 14px;
     height: 14px;
@@ -139,7 +134,7 @@
     left: 480px;
 }
 
-.contact-requisites-string_email_text {
+.contact-requisites-string__email-text {
     position: absolute;
     left: 500px;
 }

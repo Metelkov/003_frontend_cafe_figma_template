@@ -64,7 +64,6 @@
     display: flex;
     align-items: flex-end;
     text-align: center;
-    ///////////////////////////////////////////////////////////color: #000000;
     color: rgba(255, 255, 255, 0.9);
 }
 
@@ -81,7 +80,6 @@
     display: flex;
     align-items: flex-end;
     text-align: center;
-    ///////////////////////////////////////////////////////////color: #000000;
     color: rgba(255, 255, 255, 0.9);
 }
 
@@ -114,35 +112,28 @@
 .our__team-line-vertical-left {
     position: absolute;
     width: 800px;
-    height: 1px;
-    left: -95;
-top: 400px;
-transform: rotate(-90deg);
-border: 1px solid rgba(255, 255, 255, 0.2);
-
-
+    height: 0;
+    left: -105px;
+    top: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transform: rotate(-90deg);
 }
 
 .our__team-line-vertical-center {
     position: absolute;
-width: 800px;
-height: 1px;
-left: 315px;
-top: 400px;
-
-border: 1px solid rgba(255, 255, 255, 0.2);
-transform: rotate(-90deg);
-
+    width: 0;
+    height: 800px;
+    left: 719px;
+    top: 0;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .our__team-line-vertical-right {
     position: absolute;
-width: 800px;
-height: 1px;
-left: 750px;
-top: 400px;
-
-border: 1px solid rgba(255, 255, 255, 0.2);
-transform: rotate(-90deg);
-
+    width: 800px;
+    height: 0;
+    left: 774px;
+    top: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transform: rotate(-90deg);
 }

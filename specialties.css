@@ -5,7 +5,7 @@
     left: 0px;
     top: 3203px;
     border: 1px solid rgba(233, 10, 10, 0.918);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(specialties.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(specialties-bg.jpg);
 }
 
 .specialties-lettering {
@@ -43,15 +43,11 @@
     width: 600px;
     height: 56px;
     left: 761px;
-    //top: 342px;
-    
     font-family: Banny;
     font-size: 36px;
     line-height: 48px;
-    
     text-align: center;
     text-transform: uppercase;
-    
     color: #FFFFFF;
 }
 
@@ -78,7 +74,6 @@
     display: flex;
     align-items: flex-end;
     text-align: center;
-    //color: #000000;
     color: rgba(255, 255, 255, 0.9);
 }
 
@@ -95,7 +90,6 @@
     display: flex;
     align-items: flex-end;
     text-align: center;
-    ///////////////////////////////////////////////////////////color: #000000;
     color: rgba(255, 255, 255, 0.9);
 }
 
@@ -127,35 +121,28 @@
 .specialties-line-vertical-left {
     position: absolute;
     width: 800px;
-    height: 1px;
-    left: -95;
-top: 400px;
-transform: rotate(-90deg);
-border: 1px solid rgba(255, 255, 255, 0.2);
-
-
+    height: 0;
+    left: -105px;
+    top: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transform: rotate(-90deg);
 }
 
 .specialties-line-vertical-center {
     position: absolute;
-width: 800px;
-height: 1px;
-left: 315px;
-top: 400px;
-
-border: 1px solid rgba(255, 255, 255, 0.2);
-transform: rotate(-90deg);
-
+    width: 0;
+    height: 800px;
+    left: 719px;
+    top: 0;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .specialties-line-vertical-right {
     position: absolute;
-width: 800px;
-height: 1px;
-left: 750px;
-top: 400px;
-
-border: 1px solid rgba(255, 255, 255, 0.2);
-transform: rotate(-90deg);
-
+    width: 800px;
+    height: 0;
+    left: 774px;
+    top: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transform: rotate(-90deg);
 }

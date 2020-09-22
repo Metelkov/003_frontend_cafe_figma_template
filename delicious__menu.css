@@ -1,23 +1,18 @@
 .delicious-menu-selector {
     position: absolute;
-width: 840px;
-height: 50px;
-left: 300px;
-top: 247px;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 18px;
-/* or 150% */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #333333;
-
+    width: 840px;
+    height: 50px;
+    left: 300px;
+    top: 247px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
 }
 
 
@@ -27,13 +22,11 @@ color: #333333;
     height: 50px;
     left: 0px;
     top: 0px;
-    
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-    
     display: flex;
     align-items: center;
     text-align: center;
@@ -49,13 +42,11 @@ color: #333333;
     height: 50px;
     left: 120px;
     top: 0px;
-    
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-    
     display: flex;
     align-items: center;
     text-align: center;
@@ -63,51 +54,46 @@ color: #333333;
     text-transform: uppercase;
     color: #333333;
     border-right: 1px solid rgba(51, 51, 51, 0.2);
-
 }
 
 .delicious-menu-selector-pasta {
     position: absolute;
-width: 120px;
-height: 50px;
-left: 240px;
-top: 0px;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 18px;
-
-text-transform: uppercase;
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
-color: #333333;
-border-right: 1px solid  rgba(51, 51, 51, 0.2);
+    width: 120px;
+    height: 50px;
+    left: 240px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #333333;
+    border-right: 1px solid  rgba(51, 51, 51, 0.2);
 }
 
 .delicious-menu-selector-desert {
     position: absolute;
-width: 120px;
-height: 50px;
-left: 360px;
-top: 0px;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 18px;
-
-text-transform: uppercase;
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
-color: #333333;
-border-right: 1px solid  rgba(51, 51, 51, 0.2);
+    width: 120px;
+    height: 50px;
+    left: 360px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #333333;
+    border-right: 1px solid  rgba(51, 51, 51, 0.2);
 }
 
 .delicious-menu-selector-wine {
@@ -116,7 +102,6 @@ border-right: 1px solid  rgba(51, 51, 51, 0.2);
     height: 50px;
     left: 480px;
     top: 0px;
-    
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -137,7 +122,6 @@ border-right: 1px solid  rgba(51, 51, 51, 0.2);
     height: 50px;
     left: 600px;
     top: 0px;
-    
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -153,20 +137,17 @@ border-right: 1px solid  rgba(51, 51, 51, 0.2);
 }
 
 .delicious-menu-selector-drinks {
-
     position: absolute;
     width: 120px;
     height: 50px;
     left: 720px;
     top: 0px;
-    
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
     text-transform: uppercase;
-        
     display: flex;
     align-items: center;
     text-align: center;
@@ -184,6 +165,17 @@ border-right: 1px solid  rgba(51, 51, 51, 0.2);
     border: 1px solid rgba(38, 34, 226, 0.918);
 }
 
+.delicious-menu-soupe-table {
+    display: flex;
+}
+
+.delicious-menu-soupe-content-col-left {
+    flex-direction: column;
+    justify-content: space-around;
+    width: 33%;
+}
+
+/* пока оставлю, но после перехода на грид или изменю или удалю
 .delicious-menu-soupe-table {
     display: flex;
     
@@ -265,6 +257,7 @@ border-right: 1px solid  rgba(51, 51, 51, 0.2);
 
 
 }
+*/
 
 .delicious-menu-pizza-table {
     display: none;

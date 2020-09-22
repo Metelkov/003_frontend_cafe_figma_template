@@ -34,7 +34,6 @@
     text-transform: uppercase;
     letter-spacing: 0.15em;
     justify-content: space-around;
-    
     color: #FFFFFF;
 }
 
@@ -322,7 +321,7 @@
 .line__vertical-left {
     position: absolute;
     width: 695px;
-    height: 1px;
+    height: 0;
     left: -105px;
     top: 450px;
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -332,7 +331,7 @@
 .line__vertical-right {
     position: absolute;
     width: 695px;
-    height: 1px;
+    height: 0;
     left: 774px;
     top: 450px;
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -341,7 +340,7 @@
 
 .line__vertical-center {
     position: absolute;
-    width: 1px;
+    width: 0;
     height: 454px;
     left: 719px;
     top: 203px;
@@ -350,7 +349,7 @@
 
 .line__vertical-center-small {
     position: absolute;
-    width: 1px;
+    width: 0;
     height: 82px;
     left: 719px;
     top: 717px;

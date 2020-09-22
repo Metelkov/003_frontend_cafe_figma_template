@@ -5,6 +5,7 @@
     left: 0px;
     top: 4805px;
     border: 1px solid rgba(112, 112, 226, 0.918);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(specialties-bg.jpg);
 }
 
 .private-events-lettering {
@@ -21,18 +22,42 @@
     letter-spacing: 0.5em;
     text-transform: uppercase;
     justify-content: space-around;
+    color: #FFFFFF;
 }
 
 
 .private-events-pictures-left {
     position: absolute;
-    width: 475px;
-    height: 475px;
+    width: 430px;
+    height: 430px;
     left: 193px;
     top: 100px;
-    background: no-repeat center/112% url(specialties-rectangle.jpg);
+    background: no-repeat center url(events_wedding.jpg);
     border-radius: 5px;
     z-index: 10;
+}
+
+.private-events-left-black-rectangle {
+    position: absolute;
+    Width: 80px;
+    Height: 431px;
+    Left: 351px;
+    background: rgba(0, 0, 0, 0.99);
+}
+
+.private-events__inside-black-ractangle {
+    display: flex;
+    width: 250px;
+    height: 50px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+    justify-content:center;
 }
 
 .private-events-pictures-left-rectangle {
@@ -50,39 +75,119 @@
 
 .private-events-pictures-right {
     position: absolute;
-    width: 475px;
-    height: 475px;
+    width: 430px;
+    height: 430px;
     left: 761px;
     top: 100px;
-    background: no-repeat center/110% url(about-bookatable-img.jpg);
+    background: no-repeat center url(events_corporate.jpg);
     border-radius: 5px;
     z-index: 10;
 }
 
+.private-events-right-black-rectangle {
+    position: absolute;
+    Width: 80px;
+    Height: 431px;
+    Left: -1px;
+    background: rgba(0, 0, 0, 0.99);
+}
+
 .private-events-pictures-right-rectangle {
-        position: absolute;
-        width: 250px;
-        height: 250px;
-        left: 1111px;
-        top: 213px;
-        border: 20px solid #E8C300;
-        box-sizing: border-box;
-        filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
-        border-radius: 5px;
-        z-index: 11;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1111px;
+    top: 213px;
+    border: 20px solid #E8C300;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
+    border-radius: 5px;
+    z-index: 11;
 }
 
 .private-events-lettering-content {
-        position: absolute;
-        width: 1220px;
-        height: 180px;
-        left: 360px;
-        top: 450px;
-        font-family: Open Sans;
-        font-style: normal;
-        font-size: 18px;
-        line-height: 28px;
-        display: flex;
-        align-items: flex-end;
-        text-align: center;
+    position: absolute;
+    width: 850px;
+    height: 40px;
+    left: 360px;
+    top: 540px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.private-events-vertical-left {
+    position: absolute;
+    width: 800px;
+    height: 0;
+    left: -105px;
+    top: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transform: rotate(-90deg);
+}
+
+.private-events-vertical-center {
+    position: absolute;
+    width: 0;
+    height: 800px;
+    left: 719px;
+    top: 0;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.private-events-vertical-right {
+    position: absolute;
+    width: 800px;
+    height: 0;
+    left: 774px;
+    top: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transform: rotate(-90deg);
+}
+
+.private-events-gallery {
+    position: absolute;
+    width: 1440px;
+    height: 210px;
+    top: 590px;
+}
+
+.private-events-gallery__pic {
+    display: flex;
+    width: 360px;
+    height: 210px;
+    top: 590px;
+}
+
+.events-gallery__pic01 {
+    width: 350px;
+    height: 210px;
+    z-index: 10;
+    background: no-repeat center url(event_bottom_01.jpg);
+}
+
+.events-gallery__pic02 {
+    width: 350px;
+    height: 210px;
+    z-index: 10;
+    background: no-repeat center url(event_bottom_02.jpg);
+}
+
+.events-gallery__pic03 {
+    width: 350px;
+    height: 210px;
+    z-index: 10;
+    background: no-repeat center url(event_bottom_03.jpg);
+}
+
+.events-gallery__pic04 {
+    width: 350px;
+    height: 210px;
+    z-index: 10;
+    background: no-repeat center url(event_bottom_04.jpg);
 }
