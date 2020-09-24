@@ -152,6 +152,8 @@
 
 .private-events-gallery {
     position: absolute;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
     width: 1440px;
     height: 210px;
     top: 590px;
