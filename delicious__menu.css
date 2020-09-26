@@ -162,25 +162,47 @@
     height: 450px;
     left: 100px;
     top: 300px;
-    border: 1px solid rgba(38, 34, 226, 0.918);
-    grid-template-columns: 33%;
 }
-.delicious-menu-table__soupe {
-    display: grid;
+.delicious-menu {
     grid-template-columns: 33% 33% 33%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-top: 30px;
 }
+
+.table-soupe {
+    display: grid;
+}
+
 .delicious-menu-soupe-table__left {
     display: grid;
-    grid-template-columns: repeat(3, 150px);
-    grid-template-rows: repeat(7, 100px) ;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: repeat(22, 10%);
+    
+    
+}
+.delicious-menu__shift-string {
+    grid-column: span 2;
+    font-family: Banny;
+    font-size: 12px;
+    line-height: 12px;
+    color: #808080;
 }
 
 .delicious-menu-soupe-table__center {
     display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: repeat(22, 10%);
 }
 
 .delicious-menu-soupe-table__right {
     display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: repeat(22, 10%);
 }
 
 
@@ -275,26 +297,26 @@
 }
 */
 
-.delicious-menu-table__pizza {
+.table-pizza {
     display: none;
 }
 
-.delicious-menu-table__pasta {
+.table-pasta {
     display: none;
 }
 
-.delicious-menu-table__desert {
+.table-desert {
     display: none;
 }
 
-.delicious-menu-table__wine {
+.table-wine {
     display: none;
 }
 
-.delicious-menu-table__beer {
+.table-beer {
     display: none;
 }
 
-.delicious-menu-table__drinks {
+.table-drinks {
     display: none;
 }
