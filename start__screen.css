@@ -16,7 +16,7 @@
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(header-bg.jpg);
 }
 
-.menu__item__home {
+.menu__item-home {
     position: absolute;
     width: 133px;
     height: 100px;
@@ -34,11 +34,10 @@
     text-transform: uppercase;
     letter-spacing: 0.15em;
     justify-content: space-around;
-    
     color: #FFFFFF;
 }
 
-.menu__item__about {
+.menu__item-about {
     position: absolute;
     width: 133px;
     height: 100px;
@@ -59,7 +58,7 @@
     color: #FFFFFF;
 }
 
-.menu__item__team {
+.menu__item-team {
     position: absolute;
     width: 133px;
     height: 100px;
@@ -80,7 +79,7 @@
     color: #FFFFFF;
 }
 
-.menu__item__books {
+.menu__item-books {
     position: absolute;
     width: 133px;
     height: 100px;
@@ -101,7 +100,7 @@
     color: #FFFFFF;
 }
 
-.menu__item__menu {
+.menu__item-menu {
     position: absolute;
     width: 133px;
     height: 100px;
@@ -122,7 +121,7 @@
     color: #FFFFFF;
 }
 
-.menu__item__galerie {
+.menu__item-galerie {
     position: absolute;
     width: 133px;
     height: 100px;
@@ -143,7 +142,7 @@
     color: #FFFFFF;
 }
 
-.menu__item__events {
+.menu__item-events {
     position: absolute;
     width: 133px;
     height: 100px;
@@ -164,7 +163,7 @@
     color: #FFFFFF;
 }
 
-.menu__item__conakts {
+.menu__item-conakts {
     position: absolute;
     width: 133px;
     height: 100px;
@@ -186,7 +185,7 @@
 }
 
 
-.steering__wheel__pic {
+.steering-wheel-pic {
     position: absolute;
     left: 645px;
     top: 25px;
@@ -230,7 +229,7 @@
     justify-content: space-around;
 }
 
-.lettering__restaurant__name {
+.lettering__restaurant-name {
     position: absolute;
     width: 780px;
     height: 139px;
@@ -246,7 +245,7 @@
     color: #FFFFFF;
 }
 
-.lettering__restaurant__rectangle {
+.lettering__restaurant-rectangle {
     position: absolute;
     width: 60px;
     height: 5.11px;
@@ -256,7 +255,7 @@
     border-radius: 50px;
 }
 
-.button__book__table {
+.button__book-table {
     position: absolute;
     width: 200px;
     height: 60px;
@@ -301,7 +300,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.line__horizont__left {
+.line__horizont-left {
     position: absolute;
     width: 530px;
     height: 1px;
@@ -310,7 +309,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.line__horizont__right {
+.line__horizont-right {
     position: absolute;
     width: 530px;
     height: 1px;
@@ -319,45 +318,45 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.line__vertical__left {
+.line__vertical-left {
     position: absolute;
     width: 695px;
-    height: 1px;
+    height: 0;
     left: -105px;
     top: 450px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     transform: rotate(-90deg);
 }
 
-.line__vertical__right {
+.line__vertical-right {
     position: absolute;
     width: 695px;
-    height: 1px;
+    height: 0;
     left: 774px;
     top: 450px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     transform: rotate(-90deg);
 }
 
-.line__vertical__center {
+.line__vertical-center {
     position: absolute;
-    width: 1px;
+    width: 0;
     height: 454px;
     left: 719px;
     top: 203px;
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.line__vertical__center__small {
+.line__vertical-center-small {
     position: absolute;
-    width: 1px;
+    width: 0;
     height: 82px;
     left: 719px;
     top: 717px;
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.circle__arrow__down {
+.circle__arrow-down {
     position: absolute;
     height: 62px;
     width: 62px;

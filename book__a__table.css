@@ -1,15 +1,12 @@
-.book__a__table__block {
+.book__a-table-block {
     position: absolute;
     width: 1440px;
     height: 800px;
     left: 0px;
     top: 2402px;
 }
-.book__a__table {
 
-}
-
-.book__a__table__lettering {
+.book__a-table-lettering {
     position: absolute;
     width: 565px;
     height: 56px;
@@ -24,7 +21,7 @@
     border-radius: 5px;
 }
 
-.book__a__table__content__lettering {
+.book__a-table-content-lettering {
     position: absolute;
     width: 1440px;
     height: 100px;
@@ -45,7 +42,7 @@
 }
 
 
-.book__a__table__rectangle {
+.book__a-table-rectangle {
     position: absolute;
     width: 60px;
     height: 5.11px;
@@ -55,17 +52,16 @@
     border-radius: 5px;
 }
 
-.book__a__table__planing {
+.book__a-table-planing {
     position: absolute;
     width: 580px;
     height: 400px;
     left: 150px;
     top: 2650px;
     border-radius: 5px;
-    //border: 1px solid rgba(184, 13, 13, 0.2);
 }
 
-.book__a__table__planing__gray {
+.book__a-table-planing-gray {
     height: 60px;
     width: 250px;
     margin-left: 10px;
@@ -74,7 +70,7 @@
     border-radius: 5px;
 }
 
-.book__a__table__planing__yelow {
+.book__a-table-planing-yelow {
     height: 60px;
     width: 540px;
     margin-left: 10px;
@@ -82,10 +78,9 @@
     margin-top: 10px;
     background-color: #E8C300;
     color: #FFFFFF;
-    
 }
 
-.book__a__table__photo {
+.book__a-table-photo {
     position: absolute;
     width: 475px;
     height: 475px;
@@ -95,7 +90,7 @@
     border-radius: 5px;
 }
     
-.book__a__table__square {
+.book__a-table-square {
     position: absolute;
     width: 250px;
     height: 250px;

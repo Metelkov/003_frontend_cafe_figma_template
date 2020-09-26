@@ -1,0 +1,18 @@
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 6578px;
+    font-family: Banny;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(1, 7, 0, 0.918);
+    background: rgba(0, 0, 0, 0.9);
+    color:  rgba(255, 255, 255, 0.5);
+}

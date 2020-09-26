@@ -1,216 +1,300 @@
-.delicious__menu__selector__block {
+.delicious-menu-selector {
     position: absolute;
-width: 840px;
-height: 50px;
-left: 300px;
-top: 247px;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 18px;
-/* or 150% */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #333333;
-
+    width: 840px;
+    height: 50px;
+    left: 300px;
+    top: 247px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
 }
 
 
-.delicious__menu__selector__soupe {
+.delicious-menu-selector-soupe {
     position: absolute;
     width: 120px;
     height: 50px;
     left: 0px;
     top: 0px;
-    
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-    
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
     text-transform: uppercase;
     color: #333333;
-    border: 1px solid rgba(233, 10, 10, 0.918);
+    border-right: 1px solid rgba(51, 51, 51, 0.2);
 }
 
-.delicious__menu__selector__pizza {
+.delicious-menu-selector-pizza {
     position: absolute;
     width: 120px;
     height: 50px;
     left: 120px;
     top: 0px;
-    
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-    /* or 150% */
-    
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
     text-transform: uppercase;
     color: #333333;
-    border: 1px solid rgba(233, 10, 10, 0.918);
-
+    border-right: 1px solid rgba(51, 51, 51, 0.2);
 }
 
-.delicious__menu__selector__pasta {
+.delicious-menu-selector-pasta {
     position: absolute;
-width: 120px;
-height: 50px;
-left: 240px;
-top: 0px;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 18px;
-/* or 150% */
-text-transform: uppercase;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #333333;
-border: 1px solid rgba(233, 10, 10, 0.918);
+    width: 120px;
+    height: 50px;
+    left: 240px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #333333;
+    border-right: 1px solid  rgba(51, 51, 51, 0.2);
 }
 
-.delicious__menu__selector__desert {
+.delicious-menu-selector-desert {
     position: absolute;
-width: 120px;
-height: 50px;
-left: 360px;
-top: 0px;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 18px;
-/* or 150% */
-text-transform: uppercase;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #333333;
-border: 1px solid rgba(233, 10, 10, 0.918);
+    width: 120px;
+    height: 50px;
+    left: 360px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #333333;
+    border-right: 1px solid  rgba(51, 51, 51, 0.2);
 }
 
-.delicious__menu__selector__wine {
+.delicious-menu-selector-wine {
     position: absolute;
     width: 120px;
     height: 50px;
     left: 480px;
     top: 0px;
-    
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-    /* or 150% */
     text-transform: uppercase;
     display: flex;
     align-items: center;
     text-align: center;
-    
+    justify-content: center;
     color: #333333;
-    border: 1px solid rgba(233, 10, 10, 0.918);
+    border-right: 1px solid  rgba(51, 51, 51, 0.2);
 }
 
-.delicious__menu__selector__beer {
+.delicious-menu-selector-beer {
     position: absolute;
     width: 120px;
     height: 50px;
     left: 600px;
     top: 0px;
-    
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-    /* or 150% */
     text-transform: uppercase;
     display: flex;
     align-items: center;
     text-align: center;
-    
+    justify-content: center;
     color: #333333;
-    border: 1px solid rgba(233, 10, 10, 0.918);
+    border-right: 1px solid  rgba(51, 51, 51, 0.2);
 }
 
-.delicious__menu__selector__drinks {
-
+.delicious-menu-selector-drinks {
     position: absolute;
     width: 120px;
     height: 50px;
     left: 720px;
     top: 0px;
-    
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-    /* or 150% */
     text-transform: uppercase;
-    
     display: flex;
     align-items: center;
     text-align: center;
-    
+    justify-content: center;
     color: #333333;
-    border: 1px solid rgba(233, 10, 10, 0.918);
+    border-right: 1px solid  rgba(51, 51, 51, 0.2);
 }
 
-.delicious__menu__content__block{
+.delicious-menu-content-block{
     position: absolute;
-    width: 1200px;
+    width: 1240px;
+    height: 450px;
+    left: 100px;
+    top: 300px;
+    border: 1px solid rgba(38, 34, 226, 0.918);
+    grid-template-columns: 33%;
+}
+.delicious-menu-table__soupe {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.delicious-menu-soupe-table__left {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(7, 100px) ;
+}
+
+.delicious-menu-soupe-table__center {
+    display: grid;
+}
+
+.delicious-menu-soupe-table__right {
+    display: grid;
+}
+
+
+
+.delicious-menu-soupe-content-col-left {
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+/* пока оставлю, но после перехода на грид или изменю или удалю
+.delicious-menu-soupe-table {
+    display: flex;
+    
+}
+
+.delicious-menu-soupe-content-col-left {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #1ebe46;
+    width: 402px;
+    height: 450px;
+    border: 1px solid rgba(13, 13, 17, 0.918);
+
+}
+
+.delicious-menu-soupe-content-col-left-string01 {
+    align-items: left;
+    text-align: left;
+    width: 400px;
+    height: 60px;
+    text-transform: uppercase;
+    color: #098127;
+    border: 1px solid rgba(179, 226, 9, 0.918);
+    
+}
+
+.delicious-menu-soupe-content-col-left-string01-items {
+    
+    align-items: left;
+    text-align: left;
+    width: 230px;
     height: 50px;
-    left: 20px;
-    top: 400px;
-    border: 1px solid rgba(233, 10, 10, 0.918);
+    text-transform: uppercase;
+    color: #098127;
+    border: 1px solid rgba(114, 208, 224, 0.918);
+    
 }
 
-.delicious__menu__soupe__table {
+.delicious-menu-soupe-content-col-left-string01-price {
 
+    align-items: left;
+    text-align: left;
+    width: 85px;
+    height: 50px;
+    
+    text-transform: uppercase;
+    color: #098127;
+    border: 1px solid rgba(162, 221, 165, 0.918);
+    
 }
 
-
-.delicious__menu__pizza__table {
-    visibility: hidden;
+.delicious-menu-soupe-content-col-center {
+ 
+    color: #235edd;
+ 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+ 
+    width: 402px;
+    height: 450px;
+    border: 1px solid rgba(13, 13, 17, 0.918);
 }
 
-.delicious__menu__pasta__table {
-    visibility: hidden;
+.delicious-menu-soupe-content-col-right {
+    color: #ca32e9;
+    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+ 
+    width: 402px;
+    height: 450px;
+    border: 1px solid rgba(13, 13, 17, 0.918);
+
+
+}
+*/
+
+.delicious-menu-table__pizza {
+    display: none;
 }
 
-.delicious__menu__desert__table {
-    visibility: hidden;
+.delicious-menu-table__pasta {
+    display: none;
 }
 
-.delicious__menu__wine__table {
-
+.delicious-menu-table__desert {
+    display: none;
 }
 
-.delicious__menu__beer__table {
-    visibility: hidden;
+.delicious-menu-table__wine {
+    display: none;
 }
 
-.delicious__menu__drinks__table {
-    visibility: hidden;
+.delicious-menu-table__beer {
+    display: none;
+}
+
+.delicious-menu-table__drinks {
+    display: none;
 }
