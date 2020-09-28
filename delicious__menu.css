@@ -182,8 +182,6 @@
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-rows: repeat(22, 10%);
-    
-    
 }
 .delicious-menu__shift-string {
     grid-column: span 2;
@@ -205,97 +203,10 @@
     grid-template-rows: repeat(22, 10%);
 }
 
-
-
 .delicious-menu-soupe-content-col-left {
     flex-direction: column;
     justify-content: space-around;
-    
 }
-
-/* пока оставлю, но после перехода на грид или изменю или удалю
-.delicious-menu-soupe-table {
-    display: flex;
-    
-}
-
-.delicious-menu-soupe-content-col-left {
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    text-transform: uppercase;
-    color: #1ebe46;
-    width: 402px;
-    height: 450px;
-    border: 1px solid rgba(13, 13, 17, 0.918);
-
-}
-
-.delicious-menu-soupe-content-col-left-string01 {
-    align-items: left;
-    text-align: left;
-    width: 400px;
-    height: 60px;
-    text-transform: uppercase;
-    color: #098127;
-    border: 1px solid rgba(179, 226, 9, 0.918);
-    
-}
-
-.delicious-menu-soupe-content-col-left-string01-items {
-    
-    align-items: left;
-    text-align: left;
-    width: 230px;
-    height: 50px;
-    text-transform: uppercase;
-    color: #098127;
-    border: 1px solid rgba(114, 208, 224, 0.918);
-    
-}
-
-.delicious-menu-soupe-content-col-left-string01-price {
-
-    align-items: left;
-    text-align: left;
-    width: 85px;
-    height: 50px;
-    
-    text-transform: uppercase;
-    color: #098127;
-    border: 1px solid rgba(162, 221, 165, 0.918);
-    
-}
-
-.delicious-menu-soupe-content-col-center {
- 
-    color: #235edd;
- 
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    text-transform: uppercase;
- 
-    width: 402px;
-    height: 450px;
-    border: 1px solid rgba(13, 13, 17, 0.918);
-}
-
-.delicious-menu-soupe-content-col-right {
-    color: #ca32e9;
-    
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    text-transform: uppercase;
- 
-    width: 402px;
-    height: 450px;
-    border: 1px solid rgba(13, 13, 17, 0.918);
-
-
-}
-*/
 
 .table-pizza {
     display: none;

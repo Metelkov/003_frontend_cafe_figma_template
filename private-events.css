@@ -4,7 +4,6 @@
     height: 800px;
     left: 0px;
     top: 4805px;
-    border: 1px solid rgba(112, 112, 226, 0.918);
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(specialties-bg.jpg);
 }
 
@@ -25,7 +24,6 @@
     color: #FFFFFF;
 }
 
-
 .private-events-pictures-left {
     position: absolute;
     width: 430px;
@@ -39,25 +37,21 @@
 
 .private-events-left-black-rectangle {
     position: absolute;
-    Width: 80px;
-    Height: 431px;
-    Left: 351px;
+    Width: 432px;
+    Height: 70px;
+    Left: 200px;
+    top: 180px;
     background: rgba(0, 0, 0, 0.99);
-}
-
-.private-events__inside-black-ractangle {
-    display: flex;
-    width: 250px;
-    height: 50px;
+    transform: rotate(-90deg);
+    color: #FFFFFF;
     font-family: Open Sans;
     font-style: normal;
     font-size: 24px;
     line-height: 12px;
     text-align: center;
-    color: #FFFFFF;
-    transform: rotate(-90deg);
-    text-transform: uppercase;
     justify-content:center;
+    text-transform: uppercase;
+    align-items: center;
 }
 
 .private-events-pictures-left-rectangle {
@@ -77,7 +71,7 @@
     position: absolute;
     width: 430px;
     height: 430px;
-    left: 761px;
+    left: 810px;
     top: 100px;
     background: no-repeat center url(events_corporate.jpg);
     border-radius: 5px;
@@ -86,10 +80,21 @@
 
 .private-events-right-black-rectangle {
     position: absolute;
-    Width: 80px;
-    Height: 431px;
-    Left: -1px;
+    Width: 433px;
+    Height: 70px;
+    Left: -183px;
+    top: 181px;
     background: rgba(0, 0, 0, 0.99);
+    transform: rotate(-90deg);
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 12px;
+    text-align: center;
+    justify-content:center;
+    text-transform: uppercase;
+    align-items: center;
 }
 
 .private-events-pictures-right-rectangle {
@@ -167,28 +172,28 @@
 }
 
 .events-gallery__pic01 {
-    width: 350px;
+    width: 100%;
     height: 210px;
     z-index: 10;
     background: no-repeat center url(event_bottom_01.jpg);
 }
 
 .events-gallery__pic02 {
-    width: 350px;
+    width: 100%;
     height: 210px;
     z-index: 10;
     background: no-repeat center url(event_bottom_02.jpg);
 }
 
 .events-gallery__pic03 {
-    width: 350px;
+    width: 100%;
     height: 210px;
     z-index: 10;
     background: no-repeat center url(event_bottom_03.jpg);
 }
 
 .events-gallery__pic04 {
-    width: 350px;
+    width: 100%;
     height: 210px;
     z-index: 10;
     background: no-repeat center url(event_bottom_04.jpg);
