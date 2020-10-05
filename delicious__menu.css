@@ -34,6 +34,14 @@
     text-transform: uppercase;
     color: #333333;
     border-right: 1px solid rgba(51, 51, 51, 0.2);
+    border-left: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.delicious-menu-selector-soupe:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(51, 51, 51, 0.2);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .delicious-menu-selector-pizza {
@@ -56,6 +64,13 @@
     border-right: 1px solid rgba(51, 51, 51, 0.2);
 }
 
+.delicious-menu-selector-pizza:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(51, 51, 51, 0.2);
+    color: rgba(0, 0, 0, 0.9);
+}
+
 .delicious-menu-selector-pasta {
     position: absolute;
     width: 120px;
@@ -74,6 +89,13 @@
     justify-content: center;
     color: #333333;
     border-right: 1px solid  rgba(51, 51, 51, 0.2);
+}
+
+.delicious-menu-selector-pasta:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(51, 51, 51, 0.2);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .delicious-menu-selector-desert {
@@ -96,6 +118,13 @@
     border-right: 1px solid  rgba(51, 51, 51, 0.2);
 }
 
+.delicious-menu-selector-desert:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(51, 51, 51, 0.2);
+    color: rgba(0, 0, 0, 0.9);
+}
+
 .delicious-menu-selector-wine {
     position: absolute;
     width: 120px;
@@ -114,6 +143,13 @@
     justify-content: center;
     color: #333333;
     border-right: 1px solid  rgba(51, 51, 51, 0.2);
+}
+
+.delicious-menu-selector-wine:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(51, 51, 51, 0.2);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .delicious-menu-selector-beer {
@@ -136,6 +172,13 @@
     border-right: 1px solid  rgba(51, 51, 51, 0.2);
 }
 
+.delicious-menu-selector-beer:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(51, 51, 51, 0.2);
+    color: rgba(0, 0, 0, 0.9);
+}
+
 .delicious-menu-selector-drinks {
     position: absolute;
     width: 120px;
@@ -156,6 +199,13 @@
     border-right: 1px solid  rgba(51, 51, 51, 0.2);
 }
 
+.delicious-menu-selector-drinks:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(51, 51, 51, 0.2);
+    color: rgba(0, 0, 0, 0.9);
+}
+
 .delicious-menu-content-block{
     position: absolute;
     width: 1240px;
@@ -172,10 +222,6 @@
     line-height: 16px;
     text-transform: uppercase;
     margin-top: 30px;
-}
-
-.table-soupe {
-    display: grid;
 }
 
 .delicious-menu-soupe-table__left {
@@ -206,6 +252,10 @@
 .delicious-menu-soupe-content-col-left {
     flex-direction: column;
     justify-content: space-around;
+}
+
+.table-soupe {
+    display: grid;
 }
 
 .table-pizza {

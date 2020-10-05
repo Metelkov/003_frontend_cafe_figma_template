@@ -37,6 +37,13 @@
     color: #FFFFFF;
 }
 
+.menu__item-home:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(124, 124, 124, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+}
+
 .menu__item-about {
     position: absolute;
     width: 133px;
@@ -56,6 +63,13 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+}
+
+.menu__item-about:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(124, 124, 124, 0.5);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .menu__item-team {
@@ -79,6 +93,13 @@
     color: #FFFFFF;
 }
 
+.menu__item-team:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(124, 124, 124, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+}
+
 .menu__item-books {
     position: absolute;
     width: 133px;
@@ -98,6 +119,13 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+}
+
+.menu__item-books:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(124, 124, 124, 0.5);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .menu__item-menu {
@@ -121,6 +149,13 @@
     color: #FFFFFF;
 }
 
+.menu__item-menu:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(124, 124, 124, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+}
+
 .menu__item-galerie {
     position: absolute;
     width: 133px;
@@ -140,6 +175,13 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+}
+
+.menu__item-galerie:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(124, 124, 124, 0.5);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .menu__item-events {
@@ -163,6 +205,13 @@
     color: #FFFFFF;
 }
 
+.menu__item-events:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(124, 124, 124, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+}
+
 .menu__item-conakts {
     position: absolute;
     width: 133px;
@@ -182,6 +231,13 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+}
+
+.menu__item-conakts:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(124, 124, 124, 0.5);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .steering-wheel-pic {
@@ -277,6 +333,14 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.button__book-table:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background: #f8da44;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    color: rgba(34, 33, 28, 0.9);
+}
+
 .button__explore {
     position: absolute;
     width: 200px;
@@ -297,6 +361,13 @@
     color: #FFFFFF;
     border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.button__explore:hover {
+    font-size: 20px;
+    line-height: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    color: rgba(245, 242, 228, 0.9);
 }
 
 .line__horizont-left {
@@ -366,6 +437,9 @@
     background: url(down-btn.png);
 }
 
+.circle__arrow-down:hover {
+    border: 2px solid rgba(255, 255, 255, 0.9);
+}
 
 .circle__facebook {
     position: absolute;
@@ -378,6 +452,9 @@
     background:  url(facebook.png);
 }
 
+.circle__facebook:hover {
+    border: 2px solid rgba(255, 255, 255, 0.9);
+}
 .circle__twiteer {
     position: absolute;
     height: 60px;
@@ -389,6 +466,10 @@
     background: url(twitter.png);
 }
 
+.circle__twiteer:hover {
+    border: 2px solid rgba(255, 255, 255, 0.9);
+}
+
 .circle__instagramm {
     position: absolute;
     height: 60px;
@@ -398,4 +479,8 @@
     border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.2);
     background: url(facebook.png);
+}
+
+.circle__instagramm:hover {
+    border: 2px solid rgba(255, 255, 255, 0.9);
 }
