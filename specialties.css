@@ -4,7 +4,6 @@
     height: 800px;
     left: 0px;
     top: 3203px;
-    border: 1px solid rgba(233, 10, 10, 0.918);
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(specialties-bg.jpg);
 }
 
@@ -25,7 +24,6 @@
     text-transform: uppercase;
     color: #FFFFFF;
     justify-content: space-around;
-    
 }
 
 .specialties-slider {
@@ -35,14 +33,13 @@
     left: 0px;
     top: 103px;
     border: 1px solid rgba(27, 109, 202, 0.918);
-
 }
 
 .specialties-lettering-container {
     position: absolute;
     width: 600px;
     height: 56px;
-    left: 761px;
+    left: 735px;
     font-family: Banny;
     font-size: 36px;
     line-height: 48px;

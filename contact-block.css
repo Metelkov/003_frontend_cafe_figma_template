@@ -4,7 +4,6 @@
     height: 971px;
     left: 0px;
     top: 5606px;
-    border: 1px solid rgba(112, 112, 226, 0.918);
 }
 
 .contact-lettering {
@@ -12,7 +11,7 @@
     width: 1280px;
     height: 56px;
     left: 80px;
-    top: 100px;
+    top: 50px;
     font-family: Banny;
     font-size: 36px;
     line-height: 48px;
@@ -26,7 +25,7 @@
     width: 60px;
     height: 5.11px;
     left: 691px;
-    top: 156px;
+    top: 110px;
     background: #E8C300;
     border-radius: 50px;
 }
@@ -36,7 +35,7 @@
     width: 565px;
     height: 76px;
     left: 438px;
-    top: 171px;
+    top: 110px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -53,9 +52,8 @@
     width: 1240px;
     height: 280px;
     left: 100px;
-    top: 270px;
-    border: 1px solid rgba(38, 34, 226, 0.918);
-}
+    top: 200px;
+    }
 
 .contact-planing-name {
     height: 60px;
@@ -150,4 +148,11 @@
     margin-top: 10px;
     background-color: #E8C300;
     color: #FFFFFF;
+}
+
+.map-area {
+    position: absolute;
+    width: 1240px;
+    height: 450px;
+    top: 300px;
 }
