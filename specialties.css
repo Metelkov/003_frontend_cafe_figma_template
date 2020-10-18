@@ -35,6 +35,48 @@
     border: 1px solid rgba(27, 109, 202, 0.918);
 }
 
+.slide-00 {
+    display: flex;
+}
+
+.slide-01 {
+    display: none;
+}
+
+.slide-02 {
+    display: none;
+}
+
+.slide-03 {
+    display: none;
+}
+
+.slider-dots__common {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #E8C300;
+    cursor: pointer;
+    top: 710px;
+}
+
+.slider-dot__00 {
+    left: 685px;
+}
+
+.slider-dot__01 {
+    left: 705px;
+}
+
+.slider-dot__02 {
+    left: 725px;
+}
+
+.slider-dot__03 {
+    left: 745px;
+}
+
 .specialties-lettering-container {
     position: absolute;
     width: 600px;
