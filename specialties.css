@@ -31,16 +31,17 @@
     width: 1440px;
     height: 600px;
     left: 0px;
-    top: 103px;
     border: 1px solid rgba(27, 109, 202, 0.918);
+    transition: transform 1s ease-out;
 }
 
 .slide-00 {
-    display: flex;
+    transform: translateX(-1440px);
 }
 
 .slide-01 {
-    display: none;
+    left: 1440px;
+    transform: translateX(-1440px);
 }
 
 .slide-02 {
@@ -49,6 +50,14 @@
 
 .slide-03 {
     display: none;
+}
+
+.slider-container {
+    width: 1440px;
+    overflow: hidden;
+    position: absolute;
+    top: 103px;
+    height: 600px;
 }
 
 .slider-dots__common {
