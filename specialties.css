@@ -45,11 +45,11 @@
 }
 
 .slide-02 {
-    display: none;
+    transform: translateX(-1440px);
 }
 
 .slide-03 {
-    display: none;
+    transform: translateX(-1440px);
 }
 
 .slider-container {
@@ -164,7 +164,6 @@
     border-radius: 5px;
     z-index: 11;
 }
-
 
 .specialties-line-vertical-left {
     position: absolute;

@@ -35,6 +35,10 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+    border: 0;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
 }
 
 .menu__item-home:hover {
@@ -42,6 +46,7 @@
     line-height: 20px;
     background-color: rgba(124, 124, 124, 0.5);
     color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
 }
 
 .menu__item-about {
@@ -63,6 +68,10 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+    border: 0;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
 }
 
 .menu__item-about:hover {
@@ -70,6 +79,7 @@
     line-height: 20px;
     background-color: rgba(124, 124, 124, 0.5);
     color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
 }
 
 .menu__item-team {
@@ -91,6 +101,10 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+    border: 0;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
 }
 
 .menu__item-team:hover {
@@ -98,6 +112,7 @@
     line-height: 20px;
     background-color: rgba(124, 124, 124, 0.5);
     color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
 }
 
 .menu__item-books {
@@ -119,6 +134,10 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+    border: 0;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
 }
 
 .menu__item-books:hover {
@@ -126,6 +145,7 @@
     line-height: 20px;
     background-color: rgba(124, 124, 124, 0.5);
     color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
 }
 
 .menu__item-menu {
@@ -147,6 +167,10 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+    border: 0;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
 }
 
 .menu__item-menu:hover {
@@ -154,6 +178,7 @@
     line-height: 20px;
     background-color: rgba(124, 124, 124, 0.5);
     color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
 }
 
 .menu__item-galerie {
@@ -175,6 +200,10 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+    border: 0;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
 }
 
 .menu__item-galerie:hover {
@@ -182,6 +211,7 @@
     line-height: 20px;
     background-color: rgba(124, 124, 124, 0.5);
     color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
 }
 
 .menu__item-events {
@@ -203,6 +233,10 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+    border: 0;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
 }
 
 .menu__item-events:hover {
@@ -210,6 +244,7 @@
     line-height: 20px;
     background-color: rgba(124, 124, 124, 0.5);
     color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
 }
 
 .menu__item-conakts {
@@ -231,6 +266,10 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+    border: 0;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
 }
 
 .menu__item-conakts:hover {
@@ -238,6 +277,7 @@
     line-height: 20px;
     background-color: rgba(124, 124, 124, 0.5);
     color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
 }
 
 .steering-wheel-pic {
@@ -327,10 +367,14 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
     justify-content: space-around;
+    border: 0;
+    outline: none;
+    background: transparent;
     color: #FFFFFF;
     background: #E8C300;
     border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
 }
 
 .button__book-table:hover {
@@ -339,6 +383,7 @@
     background: #f8da44;
     border: 3px solid rgba(255, 255, 255, 0.8);
     color: rgba(34, 33, 28, 0.9);
+    cursor: pointer;
 }
 
 .button__explore {
@@ -358,9 +403,13 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
     justify-content: space-around;
+    border: 0;
+    outline: none;
+    background: transparent;
     color: #FFFFFF;
     border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
 }
 
 .button__explore:hover {
@@ -368,6 +417,7 @@
     line-height: 20px;
     border: 3px solid rgba(255, 255, 255, 0.8);
     color: rgba(245, 242, 228, 0.9);
+    cursor: pointer;
 }
 
 .line__horizont-left {
@@ -432,13 +482,18 @@
     width: 62px;
     left: 688px;
     top: 655px;
+    border: 0;
+    outline: none;
+    background: transparent;
     border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.2);
     background: url(down-btn.png);
+    cursor: pointer;
 }
 
 .circle__arrow-down:hover {
     border: 2px solid rgba(255, 255, 255, 0.9);
+    cursor: pointer;
 }
 
 .circle__facebook {
@@ -447,27 +502,38 @@
     width: 60px;
     left: 1301px;
     top: 340px;
+    border: 0;
+    outline: none;
+    background: transparent;
     border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.2);
     background:  url(facebook.png);
+    cursor: pointer;
 }
 
 .circle__facebook:hover {
     border: 2px solid rgba(255, 255, 255, 0.9);
+    cursor: pointer;
 }
+
 .circle__twiteer {
     position: absolute;
     height: 60px;
     width: 60px;
     left: 1301px;
     top: 420px;
+    border: 0;
+    outline: none;
+    background: transparent;
     border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.2);
     background: url(twitter.png);
+    cursor: pointer;
 }
 
 .circle__twiteer:hover {
     border: 2px solid rgba(255, 255, 255, 0.9);
+    cursor: pointer;
 }
 
 .circle__instagramm {
@@ -476,11 +542,16 @@
     width: 60px;
     left: 1301px;
     top: 500px;
+    border: 0;
+    outline: none;
+    background: transparent;
     border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.2);
     background: url(facebook.png);
+    cursor: pointer;
 }
 
 .circle__instagramm:hover {
     border: 2px solid rgba(255, 255, 255, 0.9);
+    cursor: pointer;
 }
