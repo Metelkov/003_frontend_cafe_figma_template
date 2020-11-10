@@ -7,7 +7,7 @@
     margin-right: auto;
 }
 
-.start__screen {
+.start {
     position: absolute;
     width: 1440px;
     height: 800px;
@@ -289,7 +289,7 @@
     background-image: url(Vector.png);
 }
 
-.opening__hours {
+.start__opening__hours {
     position: absolute;
     width: 695px;
     height: 60px;
@@ -305,7 +305,7 @@
     transform: rotate(-90deg);
 }
 
-.lettering__restaurant {
+.start__lettering__restaurant {
     position: absolute;
     width: 1440px;
     height: 19px;
@@ -324,7 +324,7 @@
     justify-content: space-around;
 }
 
-.lettering__restaurant-name {
+.start__lettering__restaurant-name {
     position: absolute;
     width: 780px;
     height: 139px;
@@ -340,7 +340,7 @@
     color: #FFFFFF;
 }
 
-.lettering__restaurant-rectangle {
+.start__lettering__restaurant-rectangle {
     position: absolute;
     width: 60px;
     height: 5.11px;
@@ -350,7 +350,7 @@
     border-radius: 50px;
 }
 
-.button__book-table {
+.start__button-book-table {
     position: absolute;
     width: 200px;
     height: 60px;
@@ -377,7 +377,7 @@
     cursor: pointer;
 }
 
-.button__book-table:hover {
+.start__button-book-table:hover {
     font-size: 20px;
     line-height: 20px;
     background: #f8da44;
@@ -386,7 +386,7 @@
     cursor: pointer;
 }
 
-.button__explore {
+.start__button-explore {
     position: absolute;
     width: 200px;
     height: 60px;
@@ -412,7 +412,7 @@
     cursor: pointer;
 }
 
-.button__explore:hover {
+.start__button-explore:hover {
     font-size: 20px;
     line-height: 20px;
     border: 3px solid rgba(255, 255, 255, 0.8);
@@ -420,7 +420,7 @@
     cursor: pointer;
 }
 
-.line__horizont-left {
+.start__line__horizont-left {
     position: absolute;
     width: 530px;
     height: 1px;
@@ -429,7 +429,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.line__horizont-right {
+.start__line__horizont-right {
     position: absolute;
     width: 530px;
     height: 1px;
@@ -438,7 +438,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.line__vertical-left {
+.start__line__vertical-left {
     position: absolute;
     width: 695px;
     height: 0;
@@ -448,7 +448,7 @@
     transform: rotate(-90deg);
 }
 
-.line__vertical-right {
+.start__line__vertical-right {
     position: absolute;
     width: 695px;
     height: 0;
@@ -458,7 +458,7 @@
     transform: rotate(-90deg);
 }
 
-.line__vertical-center {
+.start__line__vertical-center {
     position: absolute;
     width: 0;
     height: 454px;
@@ -467,7 +467,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.line__vertical-center-small {
+.start__line__vertical-center-small {
     position: absolute;
     width: 0;
     height: 82px;
@@ -476,7 +476,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.circle__arrow-down {
+.start__circle-arrow-down {
     position: absolute;
     height: 62px;
     width: 62px;
@@ -487,16 +487,16 @@
     background: transparent;
     border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    background: url(down-btn.png);
+    background: center / contain no-repeat url(down-btn.png);
     cursor: pointer;
 }
 
-.circle__arrow-down:hover {
+.start__circle-arrow-down:hover {
     border: 2px solid rgba(255, 255, 255, 0.9);
     cursor: pointer;
 }
 
-.circle__facebook {
+.start__circle-facebook {
     position: absolute;
     height: 60px;
     width: 60px;
@@ -507,16 +507,16 @@
     background: transparent;
     border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    background:  url(facebook.png);
+    background: center / contain no-repeat url(facebook.png);
     cursor: pointer;
 }
 
-.circle__facebook:hover {
+.start__circle-facebook:hover {
     border: 2px solid rgba(255, 255, 255, 0.9);
     cursor: pointer;
 }
 
-.circle__twiteer {
+.start__circle-twiteer {
     position: absolute;
     height: 60px;
     width: 60px;
@@ -527,16 +527,16 @@
     background: transparent;
     border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    background: url(twitter.png);
+    background: center / contain no-repeat url(twitter.png);
     cursor: pointer;
 }
 
-.circle__twiteer:hover {
+.start__circle-twiteer:hover {
     border: 2px solid rgba(255, 255, 255, 0.9);
     cursor: pointer;
 }
 
-.circle__instagramm {
+.start__circle-instagramm {
     position: absolute;
     height: 60px;
     width: 60px;
@@ -547,11 +547,11 @@
     background: transparent;
     border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    background: url(facebook.png);
+    background: center / contain no-repeat url(facebook.png);
     cursor: pointer;
 }
 
-.circle__instagramm:hover {
+.start__circle-instagramm:hover {
     border: 2px solid rgba(255, 255, 255, 0.9);
     cursor: pointer;
 }

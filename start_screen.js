@@ -27,7 +27,7 @@ document.querySelector('.start__menu').addEventListener('click', function(event)
     }
     });
 
-document.querySelector('.circle__facebook').addEventListener('click', function(event) {
+document.querySelector('.start__circle-facebook').addEventListener('click', function(event) {
     switch (event.target.innerText) {
     case 'facebook':
         document.location.href = "https://facebook.com";
@@ -35,7 +35,7 @@ document.querySelector('.circle__facebook').addEventListener('click', function(e
     }
     });
 
-document.querySelector('.circle__twiteer').addEventListener('click', function(event) {
+document.querySelector('.start__circle-twiteer').addEventListener('click', function(event) {
     switch (event.target.innerText) {
     case 'circle__twiteer':
         document.location.href = "https://twiteer.com";
@@ -43,7 +43,7 @@ document.querySelector('.circle__twiteer').addEventListener('click', function(ev
     }
     });
 
-document.querySelector('.circle__instagramm').addEventListener('click', function(event) {
+document.querySelector('.start__circle-instagramm').addEventListener('click', function(event) {
     switch (event.target.innerText) {
     case 'circle__instagramm':
         document.location.href = "https://instagramm.com";
@@ -51,15 +51,15 @@ document.querySelector('.circle__instagramm').addEventListener('click', function
     }
     });
  
-document.querySelector('.button__book-table').addEventListener('click', function(event) {
+document.querySelector('.tart__button-book-table').addEventListener('click', function(event) {
     switch (event.target.innerText) {
-    case 'button__book-table':
+    case 'Book\stable':
         document.location.href = "#book__a-table-block";
     break;
     }
     });
 
-    document.querySelector('.button__explore').addEventListener('click', function(event) {
+    document.querySelector('.start__button-explore').addEventListener('click', function(event) {
     switch (event.target.innerText) {
     case 'Explore':
         document.location.href = "#book__a-table-block";
@@ -67,7 +67,7 @@ document.querySelector('.button__book-table').addEventListener('click', function
     }
     });
 
-document.querySelector('.circle__arrow-down').addEventListener('click', function(event) {
+document.querySelector('.start__circle-arrow-down').addEventListener('click', function(event) {
     switch (event.target.innerText) {
     case 'circle__arrow-down':
         document.location.href = "#book__a-table-block";
