@@ -289,7 +289,7 @@
     background-image: url(Vector.png);
 }
 
-.start__opening__hours {
+.start__opening-hours {
     position: absolute;
     width: 695px;
     height: 60px;
@@ -305,7 +305,7 @@
     transform: rotate(-90deg);
 }
 
-.start__lettering__restaurant {
+.start__lettering-restaurant {
     position: absolute;
     width: 1440px;
     height: 19px;
@@ -324,7 +324,7 @@
     justify-content: space-around;
 }
 
-.start__lettering__restaurant-name {
+.start__lettering-restaurant-name {
     position: absolute;
     width: 780px;
     height: 139px;
@@ -340,7 +340,7 @@
     color: #FFFFFF;
 }
 
-.start__lettering__restaurant-rectangle {
+.start__lettering-restaurant-rectangle {
     position: absolute;
     width: 60px;
     height: 5.11px;
@@ -420,7 +420,7 @@
     cursor: pointer;
 }
 
-.start__line__horizont-left {
+.start__line-horizont-left {
     position: absolute;
     width: 530px;
     height: 1px;
@@ -429,7 +429,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.start__line__horizont-right {
+.start__line-horizont-right {
     position: absolute;
     width: 530px;
     height: 1px;
@@ -438,7 +438,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.start__line__vertical-left {
+.start__line-vertical-left {
     position: absolute;
     width: 695px;
     height: 0;
@@ -448,7 +448,7 @@
     transform: rotate(-90deg);
 }
 
-.start__line__vertical-right {
+.start__line-vertical-right {
     position: absolute;
     width: 695px;
     height: 0;
@@ -458,7 +458,7 @@
     transform: rotate(-90deg);
 }
 
-.start__line__vertical-center {
+.start__line-vertical-center {
     position: absolute;
     width: 0;
     height: 454px;
@@ -467,7 +467,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.start__line__vertical-center-small {
+.start__line-vertical-center-small {
     position: absolute;
     width: 0;
     height: 82px;
