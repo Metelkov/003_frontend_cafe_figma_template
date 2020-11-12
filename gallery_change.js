@@ -1,6 +1,6 @@
 /* случайное число - относительно каждой картинки - всего нужно 4 генератора */
-let first__part__pic = "no-repeat center url(event_bottom_0";
-let end__part_pic = ".jpg)";
+const first__part__pic = "no-repeat center url(event_bottom_0";
+const end__part_pic = ".jpg)";
 
 function random__pic01() {
   let rnd__part = Math.floor(Math.random() * 4)+1;
