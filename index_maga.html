@@ -1,6 +1,5 @@
 <!DOCTYPE HTML>
 <html>
-
 <head>
   <meta charset="utf-8">
   <title>Кафе ПАЛЬМИРА</title>
@@ -19,75 +18,75 @@
 </head>
 <body>
 <div class = "main">
-  <div class = "start__screen">
+  <div class = "start" id = "start__scroll">
     <div class = "start__menu">  
       <div class = "start__menu-left">
-        <div class = "menu__item-home">Home</div>
-        <div class = "menu__item-about">About</div>
-        <div class = "menu__item-team">Team</div>
-        <div class = "menu__item-books">Booking</div>
+        <button class = "menu__item-home">Home</button>
+        <button class = "menu__item-about">About</button>
+        <button class = "menu__item-team">Team</button>
+        <button class = "menu__item-books">Booking</button>
       </div>
       <div class = "start__menu-right">
-        <div class = "menu__item-menu">Menu</div>
-        <div class = "menu__item-galerie">Galerie</div>
-        <div class = "menu__item-events">Events</div>
-        <div class = "menu__item-conakts">Conakts</div>
+        <button class = "menu__item-menu">Menu</button>
+        <button class = "menu__item-galerie">Galerie</button>
+        <button class = "menu__item-events">Events</button>
+        <button class = "menu__item-conakts">Contakts</button>
       </div>
     </div>
     <div class = "clear_both"></div>
       <div class = "steering-wheel-pic">
       </div>
-      <div class = "opening__hours">
+      <div class = "start__opening-hours">
           <span>Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</span>
       </div>
-      <div class = "lettering__restaurant">
+      <div class = "start__lettering-restaurant">
         <span>Restaurant</span>
       </div>
         <div class = "clear_both"></div>
-      <div class = "lettering__restaurant-name">
-        <span>Hungry people</span>
+      <div class = "start__lettering-restaurant-name">
+        <span>Palmyra</span>
       </div>
-      <div class = "lettering__restaurant-rectangle">
+      <div class = "start__lettering-restaurant-rectangle">
       </div>
         <div class = "clear_both"></div>
-      <div class = "button__book-table">
+      <button class = "start__button-book-table" id = "button__book-table">
         <span>Book table</span>
-      </div>
-      <div class = "button__explore">
+      </button>
+      <button class = "start__button-explore" id = "button__explore">
         <span>Explore</span>
-      </div>
+      </button>
         <div class = "clear_both"></div>
-      <div class = "circle__arrow-down">
-      </div>
-      <div class = "circle__facebook">
-      </div>
-      <div class = "circle__twiteer">
-      </div>
-      <div class = "circle__instagramm">
-      </div>
+      <button class = "start__circle-arrow-down" id = "circle__arrow-down">
+      </button>
+      <button class = "start__circle-facebook" id = "circle__facebook">
+      </button>
+      <button class = "start__circle-twiteer" id = "circle__twiteer">
+      </button>
+      <button class = "start__circle-instagramm" id = "circle__instagramm">
+      </button>
         <div class = "clear_both"></div>
       <div class = "start__screen-line">
-        <div class = "line__horizont-left">
+        <div class = "start__line-horizont-left">
         </div>
-        <div class = "line__horizont-right">
-        </div>
-        <div class = "clear_both"></div>
-        <div class = "line__vertical-left">
+        <div class = "start__line-horizont-right">
         </div>
         <div class = "clear_both"></div>
-        <div class = "line__vertical-center">
+        <div class = "start__line-vertical-left">
         </div>
         <div class = "clear_both"></div>
-        <div class = "line__vertical-center-small">
+        <div class = "start__line-vertical-center">
         </div>
         <div class = "clear_both"></div>
-        <div class = "line__vertical-right">
+        <div class = "start__line-vertical-center-small">
+        </div>
+        <div class = "clear_both"></div>
+        <div class = "start__line-vertical-right">
         </div>
       </div>
         <div class = "clear_both"></div>
   </div>
   <div class = "about__us-container-block">
-    <div class = "about__us">
+    <div class = "about__us" id = "about__us">
       <div class = "about__us-lettering">
         <span>About us</span>
       </div>
@@ -108,7 +107,7 @@
       <div class = "clear_both"></div>
     </div>
   </div>
-  <div class = "our__team-container-block">
+  <div class = "our__team-container-block" id = "our__team-square">
     <div class = "our__team-lettering">
       <span>Our team</span>
     </div>
@@ -146,8 +145,7 @@
     </div>
       <div class = "clear_both"></div>
   </div>
-
-  <div class = "book__a-table-block"></div>
+  <div class = "book__a-table-block" id = "book__a-table-block"></div>
   <div class = "book__a-table">
     <div class = "book__a-table-lettering">
       <span>Book a table</span>
@@ -155,15 +153,21 @@
     <div class = "book__a-table-rectangle">
     </div>
     <div class = "book__a-table-planing">
-      <div class = "book__a-table-planing-inputs">
-        <input type="text" class="book__a-table-planing-gray" placeholder="Name" size="10">
-        <input type="text" class="book__a-table-planing-gray" placeholder="Email" size="10">
-        <input type="text" class="book__a-table-planing-gray" placeholder="Phone" size="10">
-        <input type="number" class="book__a-table-planing-gray" placeholder="People" size="10">
-        <input type="number" class="book__a-table-planing-gray" placeholder="Data (mm/dd)" size="10">
-        <input type="number" class="book__a-table-planing-gray" placeholder="Time" size="10">
-        <input type="button" class="book__a-table-planing-yelow" size="100" value="Book now">
-      </div>
+      <form class = "book__a-table-planing-inputs" action="mailto:test@test.ru" 
+        method="post" enctype="text/plain">
+        <input type="text" class="book__a-table-planing-gray" 
+          placeholder="Name" size="10" name="name" maxlength="15" form="book__a-table-planing-inputs">
+        <input type="text" class="book__a-table-planing-gray" 
+          placeholder="Email" size="10" name="email" form="book__a-table-planing-inputs">
+        <input type="number" class="book__a-table-planing-gray" 
+          placeholder="Phone" size="10" maxlength="11" form="book__a-table-planing-inputs">
+        <input type="number" class="book__a-table-planing-gray" 
+          placeholder="People" size="10" maxlength="1" form="book__a-table-planing-inputs">
+        <input type="date" class="book__a-table-planing-gray" placeholder="Data (mm/dd)" size="10">
+        <input type="time" class="book__a-table-planing-gray" placeholder="Time" size="10">
+        <input type="submit" class="book__a-table-planing-yelow" 
+          size="100" value="Book now" form="book__a-table-planing-inputs">
+      </form>
     </div>
     <div class = "book__a-table-content-lettering">
       <span>
@@ -176,21 +180,109 @@
     </div>
     <div class = "clear_both"></div>
   </div>
-
   <div class = "specialties-block">
     <div class = "specialties-lettering">
       <span>Specialties</span>
     </div>
   <div class = "clear_both"></div>
-  <div class = "specialties-slider">
+
+    <div class="slider-container">
+
+
+      <div class = "specialties-slider slide-00">
+        <div class = "specialties-lettering-container">
+          <span>chocolate pancakes</span>
+        </div>
+        <div class = "clear_both"></div>
+        <div class ="specialties-rectangle">
+        </div>
+      <div class = "specialties-content-lettering">
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, 
+          molestie est a, tempor magna.
+        </span> 
+      </div>  
+        <div class = "specialties-content-lettering-second">  
+          <span>Integer ullamcorper neque eu purus euismod, ac 
+            faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper 
+            feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt 
+            feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+          </span>
+        </div>
+      <div class = "specialties-photo">
+      </div>
+      <div class = "specialties-square">
+      </div>
+    </div>
+
+
+
+
+
+
+      <div class = "specialties-slider slide-01">
+        <div class = "specialties-lettering-container">
+          <span>wood shavings</span>
+        </div>
+        <div class = "clear_both"></div>
+        <div class ="specialties-rectangle">
+        </div>
+      <div class = "specialties-content-lettering">
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, 
+          molestie est a, tempor magna.
+        </span> 
+      </div>  
+        <div class = "specialties-content-lettering-second">  
+          <span>Integer ullamcorper neque eu purus euismod, ac 
+            faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper 
+            feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt 
+            feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+          </span>
+        </div>
+      <div class = "specialties-photo">
+      </div>
+      <div class = "specialties-square">
+      </div>
+    </div>
+
+
+    
+    <div class = "specialties-slider slide-02">
+        <div class = "specialties-lettering-container">
+          <span>pinocchio in fire</span>
+        </div>
+        <div class = "clear_both"></div>
+        <div class ="specialties-rectangle">
+        </div>
+      <div class = "specialties-content-lettering">
+        <span>diam convallis pharetra amet, consectetur adipiscing elit. Duis at velit maximus, 
+          molestie est a, tempor magna.
+        </span> 
+      </div>  
+        <div class = "specialties-content-lettering-second">  
+          <span>Integer ullamcorper neque eu purus euismod, ac 
+            faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper 
+            feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt 
+            feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+          </span>
+        </div>
+      <div class = "specialties-photo">
+      </div>
+      <div class = "specialties-square">
+      </div>
+    </div>
+    
+    
+
+
+    <div class = "specialties-slider slide-03">
       <div class = "specialties-lettering-container">
-        <span>chocolate pancakes</span>
+        <span>old metall clock</span>
       </div>
       <div class = "clear_both"></div>
       <div class ="specialties-rectangle">
       </div>
     <div class = "specialties-content-lettering">
-      <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, 
+      <span>Integer ullamcorper neque amet, consectetur adipiscing elit. Duis at velit maximus, 
         molestie est a, tempor magna.
       </span> 
     </div>  
@@ -205,7 +297,24 @@
     </div>
     <div class = "specialties-square">
     </div>
+    </div>
+
+
+    
+
   </div>
+
+  <div class = "slider-dots__common slider-dot__00">
+  </div>
+  <div class = "slider-dots__common slider-dot__01">
+  </div>
+  <div class = "slider-dots__common slider-dot__02">
+  </div>
+  <div class = "slider-dots__common slider-dot__03">
+  </div>
+
+
+
   <div class = "specialties-line">
     <div class = "clear_both"></div>
     <div class = "specialties-line-vertical-left">
@@ -219,7 +328,7 @@
   </div>
     <div class = "clear_both"></div>
   </div>
-  <div class = "delicious-menu-block">
+  <div class = "delicious-menu-block" id = "delicious-menu-block">
     <div class = "delicious-menu-lettering">
       <span>Delicious  menu</span>
     </div>
@@ -232,13 +341,13 @@
       </div>
       <div class = "clear_both"></div>
       <div class = "delicious-menu-selector">
-        <div class = "delicious-menu-selector-soupe">Soupe</div>
-        <div class = "delicious-menu-selector-pizza">Pizza</div>
-        <div class = "delicious-menu-selector-pasta">Pasta</div>
-        <div class = "delicious-menu-selector-desert">Desert</div>
-        <div class = "delicious-menu-selector-wine">Wine</div>
-        <div class = "delicious-menu-selector-beer">Beer</div>
-        <div class = "delicious-menu-selector-drinks">Drinks</div>
+        <button class = "delicious-menu-selector-soupe">Soupe</button>
+        <button class = "delicious-menu-selector-pizza">Pizza</button>
+        <button class = "delicious-menu-selector-pasta">Pasta</button>
+        <button class = "delicious-menu-selector-desert">Desert</button>
+        <button class = "delicious-menu-selector-wine">Wine</button>
+        <button class = "delicious-menu-selector-beer">Beer</button>
+        <button class = "delicious-menu-selector-drinks">Drinks</button>
       </div>
       <div class = "delicious-menu-content-block">
         <div class = "delicious-menu table-soupe">
@@ -246,112 +355,70 @@
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div>  
           <div class = "delicious-menu-soupe-table__center">
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div>
           <div class = "delicious-menu-soupe-table__right">
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span  class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span  class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span  class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span  class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span  class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Soupe Quatro Stagion</span>
             <span>35.68 USD</span>
             <span  class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div>
         </div>
         <div class = "delicious-menu table-pizza">
@@ -359,112 +426,70 @@
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div>  
           <div class = "delicious-menu-pizza-table__center">
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div>
           <div class = "delicious-menu-pizza-table__right">
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pizza Quatro Stagion</span>
             <span>30.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div>
         </div>
         <div class = "delicious-menu table-pasta">
@@ -472,112 +497,70 @@
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div>  
           <div class = "delicious-menu-pasta-table__center">
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div> 
           <div class = "delicious-menu-pasta-table__right">
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Pasta Quatro Stagion</span>
             <span>10.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div> 
         </div>
         <div class = "delicious-menu table-desert">
@@ -585,112 +568,70 @@
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div>  
           <div class = "delicious-menu-desert-table__center">
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div> 
           <div class = "delicious-menu-desert-table__right">
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Desert Quatro Stagion</span>
             <span>17.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div> 
         </div>
         <div class = "delicious-menu table-wine">
@@ -698,225 +639,141 @@
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div>  
           <div class = "delicious-menu-wine-table__center">
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div>  
           <div class = "delicious-menu-wine-table__right">
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Wine Quatro Stagion</span>
             <span>27.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
-          </div>  
+           </div>  
         </div>
         <div class = "delicious-menu table-beer">
           <div class = "delicious-menu-beer-table__left">
             <span>Beer Quatro Stagion</span>
             <span>7.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
+             <span>Beer Quatro Stagion</span>
+            <span>7.68 USD</span>
+            <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
+             <span>Beer Quatro Stagion</span>
+            <span>7.68 USD</span>
+            <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
+             <span>Beer Quatro Stagion</span>
+            <span>7.68 USD</span>
+            <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
             <span>Beer Quatro Stagion</span>
             <span>7.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Beer Quatro Stagion</span>
             <span>7.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Beer Quatro Stagion</span>
             <span>7.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
-            <span>Beer Quatro Stagion</span>
-            <span>7.68 USD</span>
-            <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
-            <span>Beer Quatro Stagion</span>
-            <span>7.68 USD</span>
-            <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
-            <span>Beer Quatro Stagion</span>
-            <span>7.68 USD</span>
-            <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div>
           <div class = "delicious-menu-beer-table__center">
             <span>Beer Quatro Stagion</span>
             <span>7.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Beer Quatro Stagion</span>
             <span>7.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Beer Quatro Stagion</span>
             <span>7.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Beer Quatro Stagion</span>
             <span>7.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Beer Quatro Stagion</span>
             <span>7.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Beer Quatro Stagion</span>
             <span>7.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Beer Quatro Stagion</span>
             <span>7.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div>
           <div class = "delicious-menu-beer-table__right">
             <span>Beer Quatro Stagion</span>
             <span>7.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Beer Quatro Stagion</span>
             <span>7.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Beer Quatro Stagion</span>
             <span>7.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Beer Quatro Stagion</span>
             <span>7.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Beer Quatro Stagion</span>
             <span>7.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Beer Quatro Stagion</span>
             <span>7.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Beer Quatro Stagion</span>
             <span>7.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div>  
         </div>
         <div class = "delicious-menu table-drinks">
@@ -924,112 +781,70 @@
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div>
           <div class = "delicious-menu-drinks-table__center">
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div>
           <div class = "delicious-menu-drinks-table__right">
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
             <span>Drinks Quatro Stagion</span>
             <span>5.68 USD</span>
             <span class = "delicious-menu__shift-string">Integer ullamcorper neque eu purus eusmod</span>
-            <span></span>
-            <div class = "clear_both"></div>
           </div>
         </div>
       </div>  
@@ -1037,7 +852,7 @@
 <!-- div ниже закрывает delicious-menu-block -->
 </div>
 <div class = "clear_both"></div>
-<div class = "private-events">
+<div class = "private-events" id = "private-events">
   <div class = "private-events-lettering">
     <span>Private events</span>
   </div>
@@ -1075,7 +890,7 @@
     </div>
   </div>
     <div class = "clear_both"></div>
-    <div class = "private-events-gallery">
+    <div class = "private-events-gallery" id = "private-events-gallery">
       <div class = "private-events-gallery__pic events-gallery__pic01">
       </div>
       <div class = "private-events-gallery__pic events-gallery__pic02">
@@ -1087,7 +902,7 @@
     </div>
   </div>
   <div class = "clear_both"></div>
-  <div class = "contact-block">  
+  <div class = "contact-block" id = "contact-block">  
     <div class = "contact-lettering">
       <span>Contact</span>
     </div>  
@@ -1099,12 +914,16 @@
         </span>
       </div>
       <div class = "contact-planing">
-        <form>
+        <form action="mailto:test@test.ru" method="post" enctype="text/plain" id="send__form">
         <div class = "contact-inputs">
-          <input type="text" class="contact-planing-name" placeholder="Name" size="10">
-          <input type="text" class="contact-planing-email" placeholder="Email" size="10">
-          <input type="text" class="contact-planing-phone" placeholder="Phone" size="10">
-          <input type="text" class="contact-planing-message" placeholder="Message">
+          <input type="text" name="login" class="contact-planing-name" 
+              placeholder="Name" size="10" maxlength="15" form="send__form">
+          <input type="text" name="email" class="contact-planing-email" 
+              placeholder="Email" size="10" form="send__form">
+          <input type="number" name="phone" class="contact-planing-phone" 
+              placeholder="Phone" size="10" maxlength="11" form="send__form">
+          <textarea type="text" name="message" class="contact-planing-message" 
+              placeholder="Message, max 330 chars" maxlength="200" form="send__form"></textarea>
             <div class = "contact-requisites-string">
               <div class = "contact-requisites-string__location-pic">
               </div>
@@ -1121,7 +940,8 @@
               <div class = "contact-requisites-string__email-text">
                 <span>office@mindblister.com</span>
               </div>
-              <input type="button" class="contact-planing-button" size="100" value="Send message">
+              <input type="submit" class="contact-planing-button" size="100" 
+                  value="Send message" form="send__form">
             </div>
         </div>
     </form>
@@ -1145,5 +965,11 @@
   <div class = "clear_both"></div>
 </div>
 </div>
+<script async src="start_screen.js"></script>
+<script async src="scroll_start.js"></script>
+<script async src="sliser.js"></script>
+<script async src="gallery_change.js"></script>
+<script async src="delicious_select_script.js"></script>
+<script async src="contect_send_form.js"></script>
 </body>
 </html>

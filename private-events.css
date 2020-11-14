@@ -37,6 +37,7 @@
 
 .private-events-left-black-rectangle {
     position: absolute;
+    display: flex;
     Width: 432px;
     Height: 70px;
     Left: 200px;
@@ -80,6 +81,7 @@
 
 .private-events-right-black-rectangle {
     position: absolute;
+    display: flex;
     Width: 433px;
     Height: 70px;
     Left: -183px;
