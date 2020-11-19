@@ -1,5 +1,5 @@
 document.querySelector('.about__us-square').addEventListener('click', function(event) {
-    switch (event.target.innerText) {
+    switch (event.target.className) {
     case 'about__us-square':
         document.location.href = "#start__scroll";
     break;
