@@ -32,23 +32,22 @@
     height: 600px;
     left: 0px;
     border: 1px solid rgba(27, 109, 202, 0.918);
-    transition: transform 1s ease-out;
 }
 
 .slide-00 {
-    transform: translateX(-1440px);
+    transform: translateX(calc(1440px * 0));
 }
 
 .slide-01 {
-    transform: translateX(-1440px);
+    transform: translateX(calc(1440px * 1));
 }
 
 .slide-02 {
-    transform: translateX(-1440px);
+    transform: translateX(calc(1440px * 2));
 }
 
 .slide-03 {
-    transform: translateX(-1440px);
+    transform: translateX(calc(1440px * 3));
 }
 
 .slider-container {
