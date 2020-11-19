@@ -12,8 +12,13 @@ function changeSlide() {
       document.getElementsByClassName('slide-00')[0].style.transition = 'transform 2s ease-out';
       document.getElementsByClassName('slide-00')[0].style.transform = 'translateX(0px)';
       console.log("ffff")
+      document.getElementsByClassName('slide-01')[0].style.transition = '';
       document.getElementsByClassName('slide-01')[0].style.transform = 'translateX(1440px)';
+
+      document.getElementsByClassName('slide-02')[0].style.transition = '';
       document.getElementsByClassName('slide-02')[0].style.transform = 'translateX(1440px)';
+
+      document.getElementsByClassName('slide-03')[0].style.transition = '';
       document.getElementsByClassName('slide-03')[0].style.transform = 'translateX(1440px)';
     }
 
@@ -78,11 +83,14 @@ function changeSlide() {
 
 */
 
-setInterval(changeSlide, 3500);
+let timerId = setInterval(changeSlide, 3500);
 
 for (button of document.querySelectorAll('.slider-dots__common')) {
   button.addEventListener('click', function(event) {
-      switch (event.target.innerText) {
+    clearInterval(timerId);
+    timerId = setInterval(changeSlide, 3500);
+
+    switch (event.target.innerText) {
       case 'slide00':
           //document.location.href = "#start__scroll";
           //alert("нажата кнопка слайдера 1");
@@ -92,7 +100,6 @@ for (button of document.querySelectorAll('.slider-dots__common')) {
           document.getElementsByClassName('slide-01')[0].style.transform = 'translateX(1440px)';
           document.getElementsByClassName('slide-02')[0].style.transform = 'translateX(1440px)';
           document.getElementsByClassName('slide-03')[0].style.transform = 'translateX(1440px)';
-          wait2Sec();
           //тут нужна функция останавливающая анимацию на 2 сек, но то что есть не так работает
       break;
       case 'slide01':
