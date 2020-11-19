@@ -20,4 +20,3 @@ document.querySelector('.about__us-square').addEventListener('click', function(e
     break;
 }
 });
-

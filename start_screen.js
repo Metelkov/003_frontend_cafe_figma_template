@@ -1,7 +1,6 @@
 document.querySelector('.start__menu').addEventListener('click', function(event) {
     switch (event.target.innerText) {
     case 'HOME':
-
     break;
     case 'ABOUT':
         document.location.href = "#about__us";
@@ -51,9 +50,9 @@ document.querySelector('.start__circle-instagramm').addEventListener('click', fu
     }
     });
  
-document.querySelector('.tart__button-book-table').addEventListener('click', function(event) {
+document.querySelector('.start__button-book-table').addEventListener('click', function(event) {
     switch (event.target.innerText) {
-    case 'Book\stable':
+    case 'Book table':
         document.location.href = "#book__a-table-block";
     break;
     }
