@@ -26,50 +26,26 @@ document.querySelector('.start__menu').addEventListener('click', function(event)
     }
     });
 
-document.querySelector('.start__circle-facebook').addEventListener('click', function(event) {
-    switch (event.target.innerText) {
-    case 'facebook':
+document.querySelector('.start').addEventListener('click', function(event) {
+    switch (event.target.className) {
+    case 'start__circle-facebook':
         document.location.href = "https://facebook.com";
     break;
-    }
-    });
-
-document.querySelector('.start__circle-twiteer').addEventListener('click', function(event) {
-    switch (event.target.innerText) {
-    case 'circle__twiteer':
+    case 'start__circle-twiteer':
         document.location.href = "https://twiteer.com";
     break;
-    }
-    });
-
-document.querySelector('.start__circle-instagramm').addEventListener('click', function(event) {
-    switch (event.target.innerText) {
-    case 'circle__instagramm':
+    case 'start__circle-instagramm':
         document.location.href = "https://instagramm.com";
     break;
-    }
-    });
- 
-document.querySelector('.start__button-book-table').addEventListener('click', function(event) {
-    switch (event.target.innerText) {
-    case 'Book table':
+    case 'start__circle-arrow-down':
         document.location.href = "#book__a-table-block";
     break;
-    }
-    });
-
-    document.querySelector('.start__button-explore').addEventListener('click', function(event) {
-    switch (event.target.innerText) {
-    case 'Explore':
+    
+    case 'start__button-book-table':
         document.location.href = "#book__a-table-block";
     break;
-    }
-    });
-
-document.querySelector('.start__circle-arrow-down').addEventListener('click', function(event) {
-    switch (event.target.innerText) {
-    case 'circle__arrow-down':
-        document.location.href = "#book__a-table-block";
+    case 'start__button-explore':
+        document.location.href = "#delicious-menu-block";
     break;
     }
     });
