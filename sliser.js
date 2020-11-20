@@ -84,50 +84,46 @@ function changeSlide() {
 
 */
 
-let timerId = setInterval(changeSlide, 2500);
+let timerId = setInterval(changeSlide, 3500);
 
 for (button of document.querySelectorAll('.slider-dots__common')) {
   button.addEventListener('click', function(event) {
     clearInterval(timerId);
-    timerId = setInterval(changeSlide, 2500);
+    timerId = setInterval(changeSlide, 3500);
 
     switch (event.target.className) {
       case 'slider-dot-00':
           console.log("нажата кнопка слайдера 1");
           
-          document.getElementsByClassName('slide-00')[0].style.transition = 'transform 2s ease-out';
+          document.getElementsByClassName('slide-00')[0].style.transition = '';
           document.getElementsByClassName('slide-00')[0].style.transform = 'translateX(0px)';
           document.getElementsByClassName('slide-01')[0].style.transform = 'translateX(1440px)';
           document.getElementsByClassName('slide-02')[0].style.transform = 'translateX(1440px)';
           document.getElementsByClassName('slide-03')[0].style.transform = 'translateX(1440px)';
-          //тут нужна функция останавливающая анимацию на 2 сек, но то что есть не так работает
       break;
       case 'slider-dot-01':
         console.log("нажата кнопка слайдера 2");
-          document.getElementsByClassName('slide-01')[0].style.transition = 'transform 2s ease-out';
+          document.getElementsByClassName('slide-01')[0].style.transition = '';
           document.getElementsByClassName('slide-01')[0].style.transform = 'translateX(0px)';
           document.getElementsByClassName('slide-00')[0].style.transform = 'translateX(1440px)';
           document.getElementsByClassName('slide-02')[0].style.transform = 'translateX(1440px)';
           document.getElementsByClassName('slide-03')[0].style.transform = 'translateX(1440px)';
-          //тут нужна функция останавливающая анимацию на 2 сек
       break;
       case 'slider-dot-02':
         console.log("нажата кнопка слайдера 3");
-          document.getElementsByClassName('slide-02')[0].style.transition = 'transform 2s ease-out';
+          document.getElementsByClassName('slide-02')[0].style.transition = '';
           document.getElementsByClassName('slide-02')[0].style.transform = 'translateX(0px)';
           document.getElementsByClassName('slide-00')[0].style.transform = 'translateX(1440px)';
           document.getElementsByClassName('slide-01')[0].style.transform = 'translateX(1440px)';
           document.getElementsByClassName('slide-03')[0].style.transform = 'translateX(1440px)';
-          //тут нужна функция останавливающая анимацию на 2 сек
       break;
       case 'slider-dot-03':
         console.log("нажата кнопка слайдера 3");
-          document.getElementsByClassName('slide-03')[0].style.transition = 'transform 2s ease-out';
+          document.getElementsByClassName('slide-03')[0].style.transition = '';
           document.getElementsByClassName('slide-03')[0].style.transform = 'translateX(0px)';
           document.getElementsByClassName('slide-00')[0].style.transform = 'translateX(1440px)';
           document.getElementsByClassName('slide-01')[0].style.transform = 'translateX(1440px)';
           document.getElementsByClassName('slide-02')[0].style.transform = 'translateX(1440px)';
-          //тут нужна функция останавливающая анимацию на 2 сек
       break;
       }
   });
