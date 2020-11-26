@@ -1,20 +1,24 @@
 
+function showFirstSlide() {
+  document.getElementsByClassName('slide-00')[0].style.transition = 'transform 2s ease-out';
+  document.getElementsByClassName('slide-00')[0].style.transform = 'translateX(0px)';
+  document.getElementsByClassName('slide-01')[0].style.transition = '';
+  document.getElementsByClassName('slide-01')[0].style.transform = 'translateX(1440px)';
+  document.getElementsByClassName('slide-02')[0].style.transition = '';
+  document.getElementsByClassName('slide-02')[0].style.transform = 'translateX(1440px)';
+  document.getElementsByClassName('slide-03')[0].style.transition = '';
+  document.getElementsByClassName('slide-03')[0].style.transform = 'translateX(-1440px)';
+
+  document.getElementsByClassName('slider-dot-00')[0].style.background = '#E80000';
+  document.getElementsByClassName('slider-dot-01')[0].style.background = '#E8C300';
+  document.getElementsByClassName('slider-dot-02')[0].style.background = '#E8C300';
+  document.getElementsByClassName('slider-dot-03')[0].style.background = '#E8C300';
+}
+
 let currentSlide = 0;
 function changeSlide() {
     if (currentSlide == 0) {
-      document.getElementsByClassName('slide-00')[0].style.transition = 'transform 2s ease-out';
-      document.getElementsByClassName('slide-00')[0].style.transform = 'translateX(0px)';
-      document.getElementsByClassName('slide-01')[0].style.transition = '';
-      document.getElementsByClassName('slide-01')[0].style.transform = 'translateX(1440px)';
-      document.getElementsByClassName('slide-02')[0].style.transition = '';
-      document.getElementsByClassName('slide-02')[0].style.transform = 'translateX(1440px)';
-      document.getElementsByClassName('slide-03')[0].style.transition = '';
-      document.getElementsByClassName('slide-03')[0].style.transform = 'translateX(-1440px)';
-
-      document.getElementsByClassName('slider-dot-00')[0].style.background = '#E80000';
-      document.getElementsByClassName('slider-dot-01')[0].style.background = '#E8C300';
-      document.getElementsByClassName('slider-dot-02')[0].style.background = '#E8C300';
-      document.getElementsByClassName('slider-dot-03')[0].style.background = '#E8C300';
+      showFirstSlide();
     }
 
     if (currentSlide == 1) {
@@ -94,12 +98,8 @@ for (button of document.querySelectorAll('.slider-dots__common')) {
     switch (event.target.className) {
       case 'slider-dot-00':
           console.log("нажата кнопка слайдера 1");
-          
-          document.getElementsByClassName('slide-00')[0].style.transition = '';
-          document.getElementsByClassName('slide-00')[0].style.transform = 'translateX(0px)';
-          document.getElementsByClassName('slide-01')[0].style.transform = 'translateX(1440px)';
-          document.getElementsByClassName('slide-02')[0].style.transform = 'translateX(1440px)';
-          document.getElementsByClassName('slide-03')[0].style.transform = 'translateX(1440px)';
+          currentSlide = 1;
+          showFirstSlide();
       break;
       case 'slider-dot-01':
         console.log("нажата кнопка слайдера 2");
