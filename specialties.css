@@ -31,25 +31,21 @@
     width: 1440px;
     height: 600px;
     left: 0px;
-    border: 1px solid rgba(27, 109, 202, 0.918);
-    transition: transform 1s ease-out;
 }
 
 .slide-00 {
-    transform: translateX(-1440px);
+    transform: translateX(1440px);
 }
-
 .slide-01 {
-    transform: translateX(-1440px);
+    transform: translateX(1440px);
 }
-
 .slide-02 {
-    transform: translateX(-1440px);
+    transform: translateX(1440px);
+}
+.slide-03 {
+    transform: translateX(1440px);
 }
 
-.slide-03 {
-    transform: translateX(-1440px);
-}
 
 .slider-container {
     width: 1440px;
@@ -64,25 +60,48 @@
     width: 10px;
     height: 10px;
     display: inline-block;
-    background-color: #E8C300;
     cursor: pointer;
     top: 710px;
 }
 
-.slider-dot__00 {
+.slider-dot-00 {
+    position: absolute;
     left: 685px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #E8C300;
+    cursor: pointer;
 }
 
-.slider-dot__01 {
+.slider-dot-01 {
+    position: absolute;
     left: 705px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #E8C300;
+    cursor: pointer;
 }
 
-.slider-dot__02 {
+.slider-dot-02 {
+    position: absolute;
     left: 725px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #E8C300;
+    cursor: pointer;
 }
 
-.slider-dot__03 {
+.slider-dot-03 {
+    position: absolute;
     left: 745px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #E8C300;
+    cursor: pointer;
 }
 
 .specialties-lettering-container {
@@ -140,13 +159,46 @@
     color: rgba(255, 255, 255, 0.9);
 }
 
-.specialties-photo {
+.specialties-photo-00 {
     position: absolute;
     width: 475px;
     height: 475px;
     left: 193px;
     top: 100px;
     background: no-repeat center/112% url(specialties-rectangle.jpg);
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.specialties-photo-01 {
+    position: absolute;
+    width: 475px;
+    height: 475px;
+    left: 193px;
+    top: 100px;
+    background: no-repeat center/112% url(chef.jpg);
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.specialties-photo-02 {
+    position: absolute;
+    width: 475px;
+    height: 475px;
+    left: 193px;
+    top: 100px;
+    background: no-repeat center/112% url(about-img.jpg);
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.specialties-photo-03 {
+    position: absolute;
+    width: 475px;
+    height: 475px;
+    left: 193px;
+    top: 100px;
+    background: no-repeat center/112% url(about-bookatable-img.jpg);
     border-radius: 5px;
     z-index: 10;
 }
