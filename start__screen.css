@@ -7,7 +7,7 @@
     margin-right: auto;
 }
 
-.start__screen {
+.start {
     position: absolute;
     width: 1440px;
     height: 800px;
@@ -16,7 +16,7 @@
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(header-bg.jpg);
 }
 
-.menu__item__home {
+.menu__item-home {
     position: absolute;
     width: 133px;
     height: 100px;
@@ -34,11 +34,22 @@
     text-transform: uppercase;
     letter-spacing: 0.15em;
     justify-content: space-around;
-    
     color: #FFFFFF;
+    border: 0;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
 }
 
-.menu__item__about {
+.menu__item-home:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(124, 124, 124, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+.menu__item-about {
     position: absolute;
     width: 133px;
     height: 100px;
@@ -57,9 +68,21 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+    border: 0;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
 }
 
-.menu__item__team {
+.menu__item-about:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(124, 124, 124, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+.menu__item-team {
     position: absolute;
     width: 133px;
     height: 100px;
@@ -78,9 +101,21 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+    border: 0;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
 }
 
-.menu__item__books {
+.menu__item-team:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(124, 124, 124, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+.menu__item-books {
     position: absolute;
     width: 133px;
     height: 100px;
@@ -99,9 +134,21 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+    border: 0;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
 }
 
-.menu__item__menu {
+.menu__item-books:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(124, 124, 124, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+.menu__item-menu {
     position: absolute;
     width: 133px;
     height: 100px;
@@ -120,9 +167,21 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+    border: 0;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
 }
 
-.menu__item__galerie {
+.menu__item-menu:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(124, 124, 124, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+.menu__item-galerie {
     position: absolute;
     width: 133px;
     height: 100px;
@@ -141,9 +200,21 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+    border: 0;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
 }
 
-.menu__item__events {
+.menu__item-galerie:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(124, 124, 124, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+.menu__item-events {
     position: absolute;
     width: 133px;
     height: 100px;
@@ -162,9 +233,21 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+    border: 0;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
 }
 
-.menu__item__conakts {
+.menu__item-events:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(124, 124, 124, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+.menu__item-conakts {
     position: absolute;
     width: 133px;
     height: 100px;
@@ -183,10 +266,21 @@
     letter-spacing: 0.15em;
     justify-content: space-around;
     color: #FFFFFF;
+    border: 0;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
 }
 
+.menu__item-conakts:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background-color: rgba(124, 124, 124, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
 
-.steering__wheel__pic {
+.steering-wheel-pic {
     position: absolute;
     left: 645px;
     top: 25px;
@@ -195,7 +289,7 @@
     background-image: url(Vector.png);
 }
 
-.opening__hours {
+.start__opening-hours {
     position: absolute;
     width: 695px;
     height: 60px;
@@ -211,7 +305,7 @@
     transform: rotate(-90deg);
 }
 
-.lettering__restaurant {
+.start__lettering-restaurant {
     position: absolute;
     width: 1440px;
     height: 19px;
@@ -230,7 +324,7 @@
     justify-content: space-around;
 }
 
-.lettering__restaurant__name {
+.start__lettering-restaurant-name {
     position: absolute;
     width: 780px;
     height: 139px;
@@ -242,11 +336,11 @@
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    transform: translateX(40%);
+    transform: translateX(63%);
     color: #FFFFFF;
 }
 
-.lettering__restaurant__rectangle {
+.start__lettering-restaurant-rectangle {
     position: absolute;
     width: 60px;
     height: 5.11px;
@@ -256,7 +350,7 @@
     border-radius: 50px;
 }
 
-.button__book__table {
+.start__button-book-table {
     position: absolute;
     width: 200px;
     height: 60px;
@@ -273,13 +367,26 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
     justify-content: space-around;
+    border: 0;
+    outline: none;
+    background: transparent;
     color: #FFFFFF;
     background: #E8C300;
     border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
 }
 
-.button__explore {
+.start__button-book-table:hover {
+    font-size: 20px;
+    line-height: 20px;
+    background: #f8da44;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    color: rgba(34, 33, 28, 0.9);
+    cursor: pointer;
+}
+
+.start__button-explore {
     position: absolute;
     width: 200px;
     height: 60px;
@@ -296,12 +403,24 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
     justify-content: space-around;
+    border: 0;
+    outline: none;
+    background: transparent;
     color: #FFFFFF;
     border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
 }
 
-.line__horizont__left {
+.start__button-explore:hover {
+    font-size: 20px;
+    line-height: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    color: rgba(245, 242, 228, 0.9);
+    cursor: pointer;
+}
+
+.start__line-horizont-left {
     position: absolute;
     width: 530px;
     height: 1px;
@@ -310,7 +429,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.line__horizont__right {
+.start__line-horizont-right {
     position: absolute;
     width: 530px;
     height: 1px;
@@ -319,85 +438,120 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.line__vertical__left {
+.start__line-vertical-left {
     position: absolute;
     width: 695px;
-    height: 1px;
+    height: 0;
     left: -105px;
     top: 450px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     transform: rotate(-90deg);
 }
 
-.line__vertical__right {
+.start__line-vertical-right {
     position: absolute;
     width: 695px;
-    height: 1px;
+    height: 0;
     left: 774px;
     top: 450px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     transform: rotate(-90deg);
 }
 
-.line__vertical__center {
+.start__line-vertical-center {
     position: absolute;
-    width: 1px;
+    width: 0;
     height: 454px;
     left: 719px;
     top: 203px;
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.line__vertical__center__small {
+.start__line-vertical-center-small {
     position: absolute;
-    width: 1px;
+    width: 0;
     height: 82px;
     left: 719px;
     top: 717px;
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.circle__arrow__down {
+.start__circle-arrow-down {
     position: absolute;
     height: 62px;
     width: 62px;
     left: 688px;
     top: 655px;
+    border: 0;
+    outline: none;
+    background: transparent;
     border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    background: url(down-btn.png);
+    background: center / contain no-repeat url(down-btn.png);
+    cursor: pointer;
 }
 
+.start__circle-arrow-down:hover {
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
 
-.circle__facebook {
+.start__circle-facebook {
     position: absolute;
     height: 60px;
     width: 60px;
     left: 1301px;
     top: 340px;
+    border: 0;
+    outline: none;
+    background: transparent;
     border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    background:  url(facebook.png);
+    background: center / contain no-repeat url(facebook.png);
+    cursor: pointer;
 }
 
-.circle__twiteer {
+.start__circle-facebook:hover {
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+.start__circle-twiteer {
     position: absolute;
     height: 60px;
     width: 60px;
     left: 1301px;
     top: 420px;
+    border: 0;
+    outline: none;
+    background: transparent;
     border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    background: url(twitter.png);
+    background: center / contain no-repeat url(twitter.png);
+    cursor: pointer;
 }
 
-.circle__instagramm {
+.start__circle-twiteer:hover {
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+.start__circle-instagramm {
     position: absolute;
     height: 60px;
     width: 60px;
     left: 1301px;
     top: 500px;
+    border: 0;
+    outline: none;
+    background: transparent;
     border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    background: url(facebook.png);
+    background: center / contain no-repeat url(facebook.png);
+    cursor: pointer;
+}
+
+.start__circle-instagramm:hover {
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    cursor: pointer;
 }

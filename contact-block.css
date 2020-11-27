@@ -1,0 +1,163 @@
+.contact-block {
+    position: absolute;
+    width: 1440px;
+    height: 971px;
+    left: 0px;
+    top: 5606px;
+}
+
+.contact-lettering {
+    position: absolute;
+    width: 1280px;
+    height: 56px;
+    left: 80px;
+    top: 50px;
+    font-family: Banny;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.contact-rectangle {
+    position: absolute;
+    width: 60px;
+    height: 5.11px;
+    left: 691px;
+    top: 110px;
+    background: #E8C300;
+    border-radius: 50px;
+}
+
+.contact-content-lettering {
+    position: absolute;
+    width: 565px;
+    height: 76px;
+    left: 438px;
+    top: 110px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #000000;
+}
+
+.contact-planing {
+    position: absolute;
+    width: 1240px;
+    height: 280px;
+    left: 100px;
+    top: 200px;
+    }
+
+.contact-planing-name {
+    height: 60px;
+    width: 380px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 150%;
+}
+
+.contact-planing-email {
+    height: 60px;
+    width: 380px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 150%;
+}
+
+.contact-planing-phone {
+    height: 60px;
+    width: 380px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 150%;
+}
+
+.contact-planing-message {
+    height: 120px;
+    width: 1205px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 150%;
+}
+
+.contact-requisites-string {
+    height: 50px;
+    width: 540px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.contact-requisites-string__location-pic {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #E8C300;
+}
+
+.contact-requisites-string__location-text {
+    position: absolute;
+    left: 30px;
+}
+
+.contact-requisites-string__phone-pic {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #E8C300;
+    left: 230px;
+}
+
+.contact-requisites-string__phone-text {
+    position: absolute;
+    left: 250px;
+}
+
+.contact-requisites-string__email-pic {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #E8C300;
+    left: 480px;
+}
+
+.contact-requisites-string__email-text {
+    position: absolute;
+    left: 500px;
+}
+
+.contact-planing-button {
+    position: absolute;
+    left: 800px;
+    height: 50px;
+    width: 412px;
+    top: 210px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #E8C300;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.map-area {
+    position: absolute;
+    width: 1240px;
+    height: 450px;
+    top: 300px;
+}

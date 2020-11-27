@@ -1,13 +1,12 @@
-.delicious__menu__block {
+.delicious-menu-block {
     position: absolute;
     width: 1440px;
     height: 800px;
     left: 0px;
     top: 4004px;
-    border: 1px solid rgba(233, 10, 10, 0.918);
 }
 
-.delicious__menu__lettering {
+.delicious-menu-lettering {
     position: absolute;
     width: 1280px;
     height: 56px;
@@ -21,7 +20,7 @@
     color: #000000;
 }
 
-.delicious__menu__rectangle {
+.delicious-menu-rectangle {
     position: absolute;
     width: 60px;
     height: 5.11px;
@@ -31,7 +30,7 @@
     border-radius: 50px;
 }
 
-.delicious__menu__lettering__container {
+.delicious-menu-lettering-container {
     position: absolute;
     width: 565px;
     height: 76px;
